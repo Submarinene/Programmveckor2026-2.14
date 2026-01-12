@@ -19,11 +19,7 @@ public class FindTheDragon : MonoBehaviour
                 Debug.Log("Dragon teleported!");
                 timer = 0;
             }
-        } else
-        {
-
-        }
-
+        } 
     }
     public void OnMouseDown()
     {
