@@ -6,7 +6,6 @@ public class FindTheDragon : MonoBehaviour
     [SerializeField] Transform propA, propB, propC, propD;
     float timer;
     bool isFound = false;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     // Update is called once per frame
     void Update()
@@ -20,6 +19,9 @@ public class FindTheDragon : MonoBehaviour
                 Debug.Log("Dragon teleported!");
                 timer = 0;
             }
+        } else
+        {
+
         }
 
     }
