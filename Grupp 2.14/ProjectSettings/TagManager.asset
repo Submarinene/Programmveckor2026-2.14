@@ -9,6 +9,9 @@ TagManager:
   - Blank Space
   - Word Box
   - Text Child
+  - Background
+  - Floor
+  - Character
   layers:
   - Default
   - TransparentFX
