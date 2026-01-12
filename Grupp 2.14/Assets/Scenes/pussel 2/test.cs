@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+
 
 
 public class test : MonoBehaviour
@@ -9,22 +9,22 @@ public class test : MonoBehaviour
     //lista med typ rigidbody(istället för img) på alla collumner 
     //lista på outlines
     [SerializeField]
-    GameObject[] collumnA;
+    GameObject[] cA;
 
     void Start()
     {
-        for (int i = 0; i < collumnA.Length; i++)
+        for (int i = 0; i < cA.Length; i++)
         {
-            collumnA(i).SetActive(true);
+            cA(i).SetActive(true);
         }
 
     }
 
     public void OnMouseDown()
     {
-      
 
 
+       
 
       /* for(int i = 0; i < collumnA.Length; i++)
         {
