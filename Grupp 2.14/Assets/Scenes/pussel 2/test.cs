@@ -13,10 +13,10 @@ public class test : MonoBehaviour
 
     void Start()
     {
-        for (int i = 0; i < cA.Length; i++)
+      /*  for (int i = 0; i < cA.Length; i++)
         {
             cA(i).SetActive(true);
-        }
+        }*/
 
     }
 
