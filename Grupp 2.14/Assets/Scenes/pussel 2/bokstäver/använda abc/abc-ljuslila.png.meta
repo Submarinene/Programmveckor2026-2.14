@@ -1,0 +1,786 @@
+fileFormatVersion: 2
+guid: a4c49bd5d083e5945891c07da0af27e4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: k-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 867
+        width: 340
+        height: 340
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78c3744d3cb2e04b9c47f9a79f04fbf
+      internalID: -236817708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: u-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 509
+        width: 340
+        height: 340
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4443f345bb60d374ea9adb3de870f7ac
+      internalID: 314193607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 1216
+        width: 340
+        height: 340
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0651e889fe0b15848bb899b090545a07
+      internalID: -736163530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 869
+        width: 340
+        height: 340
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe2f21a821f87144afff1af056b99f0
+      internalID: 667660014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: d-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 1216
+        width: 340
+        height: 340
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18d494dce6f71441a23fb459a91ea73
+      internalID: 915919218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: e-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 1214
+        width: 340
+        height: 340
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6928c87c0affc304098c91f3947421c0
+      internalID: -129134473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 864
+        width: 340
+        height: 340
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a1d683a3153bb4a9f5e80a0e541083
+      internalID: 81965279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 863
+        width: 340
+        height: 340
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3d94f12e4d0654094a7040b4968505
+      internalID: 1020686339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: h-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 865
+        width: 340
+        height: 340
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb84b396b5028054b98296f35c0ec99d
+      internalID: -1095821067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: i-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 865
+        width: 340
+        height: 340
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64f6ac94c71a7f42bdc49fc5ae5ebc8
+      internalID: 1717798025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: j-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 867
+        width: 340
+        height: 340
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631bbc629292e41428a90fec274b880d
+      internalID: 294560615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: l-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 865
+        width: 340
+        height: 340
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fdb1a1cd58f5545a8716a2f6e60463
+      internalID: -1908087229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: n-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 500
+        width: 340
+        height: 340
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0f11dcd52a5464d8d35de773afa0b0
+      internalID: -452243078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: o-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 498
+        width: 340
+        height: 340
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1602b99bfc6cb42a4c5ecead6ac1a3
+      internalID: 760673979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: p-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 502
+        width: 340
+        height: 340
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e43e3a6d1b08d48932344cc8354fe9
+      internalID: 494136389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: q-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 502
+        width: 340
+        height: 340
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110850fc070ad3d40ab5b90614d1479b
+      internalID: 1155990420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 502
+        width: 340
+        height: 340
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641b62a7a3e7bb1488a9629cd54cfa5b
+      internalID: 738445025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: s-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 504
+        width: 340
+        height: 340
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9fdb2467fd1df54daa2a35461afe669
+      internalID: 1590445386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: v-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 124
+        width: 340
+        height: 340
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec727dc918e16d48b8e52a8d3457f2e
+      internalID: -765535524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: w-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 130
+        width: 340
+        height: 340
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee9d27ec91bd4c40b7311b76553fe4f
+      internalID: -739058699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 134
+        width: 340
+        height: 340
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fa2df6458559643a6f667ade537ca7
+      internalID: -1404203424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: y-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 132
+        width: 340
+        height: 340
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc4ebd9855adf34aa6d8176dc4a9dbd
+      internalID: 1716196709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: z-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 132
+        width: 340
+        height: 340
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b94b1e9e40bd2b49af09dc668e6756c
+      internalID: -836041798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 508
+        width: 340
+        height: 340
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9297269d45675214a8e0ad0c70ab2980
+      internalID: 1322527132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1214
+        width: 340
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9467c459482642348ab67c171e07fc68
+      internalID: 607595184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: a-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1213
+        width: 340
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26ea9e259184c4438ded568b1c505dd
+      internalID: 2056685711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '@-ljuslila'
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1213
+        width: 340
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aac6e9bd76d236459b5f311432abfcf
+      internalID: 1295206688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: -ljuslila
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1215
+        width: 340
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665c3bd50ab2ed14db0816304136cb34
+      internalID: 1187361947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ;-ljuslila
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1197
+        width: 340
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5dd6de36d3bd814eac3da67f28dba06
+      internalID: 1661542973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2b212a53d7fb30b47ab4239cc5964072
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":4.0},"gridSpriteSize":{"x":340.0,"y":340.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":5.0,"y":50.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":1,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      -ljuslila: 1187361947
+      ;-ljuslila: 1661542973
+      '@-ljuslila': 1295206688
+      a-ljuslila: 2056685711
+      b-ljuslila: 607595184
+      c-ljuslila: -736163530
+      d-ljuslila: 915919218
+      e-ljuslila: -129134473
+      f-ljuslila: 81965279
+      g-ljuslila: 1020686339
+      h-ljuslila: -1095821067
+      i-ljuslila: 1717798025
+      j-ljuslila: 294560615
+      k-ljuslila: -236817708
+      l-ljuslila: -1908087229
+      m-ljuslila: 667660014
+      n-ljuslila: -452243078
+      o-ljuslila: 760673979
+      p-ljuslila: 494136389
+      q-ljuslila: 1155990420
+      r-ljuslila: 738445025
+      s-ljuslila: 1590445386
+      t-ljuslila: 1322527132
+      u-ljuslila: 314193607
+      v-ljuslila: -765535524
+      w-ljuslila: -739058699
+      x-ljuslila: -1404203424
+      y-ljuslila: 1716196709
+      z-ljuslila: -836041798
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
