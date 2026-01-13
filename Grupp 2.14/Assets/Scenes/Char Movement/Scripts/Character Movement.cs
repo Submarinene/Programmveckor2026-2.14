@@ -5,14 +5,14 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] float walkSpeed = 5f;
     [SerializeField] float jumpVelocity = 10f;
 
-    private Rigidbody rb;
+    private Rigidbody2D rb;
     private float horizontalInput;
     private bool isGrounded = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -20,9 +20,9 @@ public class CharacterMovement : MonoBehaviour
     {
         horizontalInput = Input.GetAxis("Horizontal");
 
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if (Input.GetKey(KeyCode.Space) && isGrounded)
         {
-            rb.AddForce(Vector3.up * jumpVelocity, ForceMode.Impulse);
+            rb.AddForce(Vector2.up * jumpVelocity);
         }
     }
 
@@ -31,7 +31,7 @@ public class CharacterMovement : MonoBehaviour
         rb.linearVelocity = new Vector2(horizontalInput * walkSpeed, rb.linearVelocity.y);
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Floor"))
         {
@@ -39,7 +39,7 @@ public class CharacterMovement : MonoBehaviour
         }
     }
 
-    private void OnCollisionExit(Collision collision)
+    private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Floor"))
         {

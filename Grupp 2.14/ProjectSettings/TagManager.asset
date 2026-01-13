@@ -12,6 +12,11 @@ TagManager:
   - Background
   - Floor
   - Character
+  - King
+  - Chameleon
+  - Guard 1
+  - Black Screen
+  - Text Bubble
   layers:
   - Default
   - TransparentFX
