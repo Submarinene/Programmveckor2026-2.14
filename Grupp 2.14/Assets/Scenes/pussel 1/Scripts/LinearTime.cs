@@ -1,5 +1,3 @@
-using NUnit.Framework;
-using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -27,7 +25,6 @@ public class LinearTime : MonoBehaviour
         } else
         {
             timesUpText.SetActive(true);
-            Debug.Log("You lose!");
         }
     }
 }

@@ -1,24 +1,17 @@
 using UnityEngine;
-using TMPro;
-using System.Linq;
-using static UnityEditor.Progress;
 
-public class CollectPieces : MonoBehaviour
+public class Click : MonoBehaviour
 {
+    
     Vector3 mousePosition;
     RaycastHit rayHit;
     GameObject item;
     bool isHit;
-    [SerializeField] TextMeshProUGUI counter;
-    int count = 0;
 
-    private void Start()
-    {
-        counter.text = count.ToString();
-    }
+    // Update is called once per frame
     void Update()
     {
-        counter.text = count.ToString();
+        
         if (Input.GetMouseButtonDown(0))
         {
             mousePosition = Input.mousePosition;
@@ -27,23 +20,13 @@ public class CollectPieces : MonoBehaviour
             if (isHit)
             {
                 item = rayHit.collider.gameObject;
-                CollectItem(item);
                 Debug.Log(item.name + "   " + rayHit.point);
-            }
-            else
+            } else
             {
                 Debug.Log("Empty Space");
             }
         }
     }
 
-    void CollectItem(GameObject item)
-    {
-        if (item.CompareTag("Piece"))
-        {
-            Debug.Log("You collected a piece!");
-            count += 1;
-            Destroy(item);
-        }
-    }
+    
 }
