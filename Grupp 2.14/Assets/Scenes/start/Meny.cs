@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Meny : MonoBehaviour
 {
-  public void start()
+  public void startscen()
     {
         SceneManager.LoadSceneAsync(0);
     }
@@ -29,6 +29,11 @@ public class Meny : MonoBehaviour
     public void TeaterScen2()
     {
         SceneManager.LoadSceneAsync(5);
+    }
+
+   public void doExitGame()
+    {
+        Application.Quit();
     }
 
 }
