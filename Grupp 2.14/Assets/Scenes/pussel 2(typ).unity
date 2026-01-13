@@ -2297,7 +2297,7 @@ MonoBehaviour:
     m_HighlightedSprite: {fileID: -522535080, guid: 295c57b624dc32e49ab3cd7c24b60c16, type: 3}
     m_PressedSprite: {fileID: -216520957, guid: 322647a18a6f723468dd2404d2248f85, type: 3}
     m_SelectedSprite: {fileID: -216520957, guid: 322647a18a6f723468dd2404d2248f85, type: 3}
-    m_DisabledSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 161371377, guid: 295c57b624dc32e49ab3cd7c24b60c16, type: 3}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
@@ -2308,7 +2308,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 366628913}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 366628910}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &366628913
 MonoBehaviour:
   m_ObjectHideFlags: 0
