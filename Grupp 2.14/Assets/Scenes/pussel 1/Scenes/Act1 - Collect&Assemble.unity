@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 10077224}
   - component: {fileID: 10077225}
   m_Layer: 0
-  m_Name: Interact
+  m_Name: InteractProps
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -419,7 +419,7 @@ Transform:
   m_GameObject: {fileID: 120925695}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.3, y: 0, z: 0}
+  m_LocalPosition: {x: -13.18445, y: 0, z: -23.07639}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -432,7 +432,7 @@ Transform:
   - {fileID: 1603068703}
   - {fileID: 782749726}
   - {fileID: 1668947058}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2017559220}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &167077567
 GameObject:
@@ -485,7 +485,7 @@ GameObject:
   - component: {fileID: 206482458}
   - component: {fileID: 206482457}
   m_Layer: 0
-  m_Name: Background_0
+  m_Name: Background_ThroneRoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1414,7 +1414,7 @@ GameObject:
   - component: {fileID: 466409508}
   - component: {fileID: 466409509}
   m_Layer: 0
-  m_Name: HouseProps_0
+  m_Name: HouseProps
   m_TagString: Prop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2438,7 +2438,7 @@ GameObject:
   - component: {fileID: 911639422}
   - component: {fileID: 911639423}
   m_Layer: 6
-  m_Name: GrassProps_2
+  m_Name: GrassProps
   m_TagString: Prop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3102,7 +3102,7 @@ GameObject:
   - component: {fileID: 1108009776}
   - component: {fileID: 1108009777}
   m_Layer: 6
-  m_Name: TreeProps_0
+  m_Name: TreeProps
   m_TagString: Prop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3214,7 +3214,7 @@ GameObject:
   - component: {fileID: 1115081505}
   - component: {fileID: 1115081506}
   m_Layer: 6
-  m_Name: PrincessBed_1
+  m_Name: PrincessBed
   m_TagString: Prop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3834,7 +3834,7 @@ GameObject:
   - component: {fileID: 1279543511}
   - component: {fileID: 1279543510}
   m_Layer: 0
-  m_Name: PuzzleBase
+  m_Name: AssemblePuzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5031,7 +5031,7 @@ GameObject:
   - component: {fileID: 1659241665}
   - component: {fileID: 1659241666}
   m_Layer: 6
-  m_Name: StoneProps_1
+  m_Name: StoneProps
   m_TagString: Prop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5596,6 +5596,7 @@ Transform:
   m_Children:
   - {fileID: 206482458}
   - {fileID: 1281669522}
+  - {fileID: 120925696}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2028449124
@@ -5878,7 +5879,7 @@ GameObject:
   - component: {fileID: 2095939985}
   - component: {fileID: 2095939984}
   m_Layer: 0
-  m_Name: WardrobeClosedProp_0
+  m_Name: WardrobeClosedProp
   m_TagString: Wardrobe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6335,11 +6336,10 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 882132306}
+  - {fileID: 100998037}
   - {fileID: 826625243}
   - {fileID: 932811649}
   - {fileID: 1057379261}
   - {fileID: 2017559220}
-  - {fileID: 100998037}
-  - {fileID: 120925696}
   - {fileID: 1279543511}
   - {fileID: 1330190553}

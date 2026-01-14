@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/start.unity
     guid: b372748214a3c8b4e8680d29260b74f1
   - enabled: 1
-    path: Assets/Scenes/pussel 1/TestSceneEstella.unity
+    path: Assets/Scenes/pussel 1/Scenes/TestSceneEstella.unity
     guid: 871018781244c9b48bc0b16aea51cbe7
   - enabled: 1
     path: Assets/Scenes/pussel 2(typ).unity
@@ -24,10 +24,10 @@ EditorBuildSettings:
     path: Assets/Scenes/pussel 2.unity
     guid: c37088ee91229304f847b2c48bf057db
   - enabled: 1
-    path: Assets/Scenes/pussel 1/Act1 - Collect&Assemble.unity
+    path: Assets/Scenes/pussel 1/Scenes/Act1 - Collect&Assemble.unity
     guid: 31365a11899feb044b3da6e87fd01458
   - enabled: 1
-    path: Assets/Scenes/pussel 1/Lose.unity
+    path: Assets/Scenes/pussel 1/Scenes/Lose.unity
     guid: 87fee58bb184487449b28e7c4185d4eb
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
