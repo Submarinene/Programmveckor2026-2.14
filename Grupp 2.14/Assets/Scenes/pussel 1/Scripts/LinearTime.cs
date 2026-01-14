@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LinearTime : MonoBehaviour
@@ -27,4 +28,5 @@ public class LinearTime : MonoBehaviour
             timesUpText.SetActive(true);
         }
     }
+
 }
