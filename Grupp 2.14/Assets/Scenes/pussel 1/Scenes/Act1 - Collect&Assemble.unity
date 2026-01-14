@@ -360,7 +360,7 @@ GameObject:
   - component: {fileID: 100998037}
   - component: {fileID: 100998036}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -424,9 +424,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1987947384}
-  - {fileID: 450288010}
   - {fileID: 1864785774}
   - {fileID: 1274421065}
+  - {fileID: 450288010}
   - {fileID: 695203772}
   - {fileID: 449181959}
   - {fileID: 1603068703}
@@ -1087,7 +1087,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3927920834266161483, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
       propertyPath: m_Name
-      value: Piece (4)
+      value: Piece behind curtain
+      objectReference: {fileID: 0}
+    - target: {fileID: 3927920834266161483, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5319952062733354094, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1524,7 +1528,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3927920834266161483, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
       propertyPath: m_Name
-      value: Piece (3)
+      value: Piece on tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 3927920834266161483, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5319952062733354094, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1981,7 +1989,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3927920834266161483, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
       propertyPath: m_Name
-      value: Piece (1)
+      value: piece behind tree on wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 3927920834266161483, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5319952062733354094, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
       propertyPath: m_LocalScale.x
@@ -2536,8 +2548,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 7.65, y: 4.52, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0.0000009536743}
+  m_Size: {x: 5.570072, y: 1.1577712, z: 0.2}
+  m_Center: {x: 0.0003455115, y: -1.6811138, z: 0.0000009526972}
 --- !u!1 &932811646
 GameObject:
   m_ObjectHideFlags: 0
@@ -5609,7 +5621,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3927920834266161483, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
       propertyPath: m_Name
-      value: Piece
+      value: Piece behind gras
+      objectReference: {fileID: 0}
+    - target: {fileID: 3927920834266161483, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5319952062733354094, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
       propertyPath: m_LocalScale.x
@@ -5731,7 +5747,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3927920834266161483, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
       propertyPath: m_Name
-      value: Piece (2)
+      value: piece behind house
+      objectReference: {fileID: 0}
+    - target: {fileID: 3927920834266161483, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5319952062733354094, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
       propertyPath: m_LocalScale.x
@@ -5804,7 +5824,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3927920834266161483, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
       propertyPath: m_Name
-      value: Piece (1)
+      value: Piece behind bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 3927920834266161483, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5319952062733354094, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
       propertyPath: m_LocalScale.x
@@ -5989,7 +6013,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3927920834266161483, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
       propertyPath: m_Name
-      value: Piece (2)
+      value: Piece on bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 3927920834266161483, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5319952062733354094, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
       propertyPath: m_LocalScale.x
@@ -6227,7 +6255,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3927920834266161483, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
       propertyPath: m_Name
-      value: Piece
+      value: Piece behind tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 3927920834266161483, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5319952062733354094, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6284,7 +6316,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3927920834266161483, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
       propertyPath: m_Name
-      value: Piece
+      value: Piece behind rock
+      objectReference: {fileID: 0}
+    - target: {fileID: 3927920834266161483, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5319952062733354094, guid: 3ff947027cdebe344866dacac1e686f3, type: 3}
       propertyPath: m_LocalPosition.x
