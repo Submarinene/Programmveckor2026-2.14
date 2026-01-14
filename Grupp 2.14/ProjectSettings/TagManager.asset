@@ -19,6 +19,7 @@ TagManager:
   - Guard 1
   - Black Screen
   - Text Bubble
+  - Wardrobe
   layers:
   - Default
   - TransparentFX

@@ -1,21 +1,27 @@
 using UnityEngine;
-using static UnityEngine.Rigidbody2D;
 
-public class SwipeProp : MonoBehaviour
+public class InteractProp : MonoBehaviour
 {
     RaycastHit rayHit;
     GameObject prop;
     bool isHit;
-    bool isDragging, swipeLeft, swipeRight;
+    bool isDragging, swipeLeft, swipeRight, click;
     Vector2 startPosition, swipeDelta;
+    [SerializeField] SpriteRenderer wardrobe;
+    [SerializeField] Sprite openWardrobe, closedWardrobe;
 
+
+    private void Start()
+    {
+        wardrobe.GetComponent<SpriteRenderer>();
+    }
     private void Update()
     {
         SwipeControl();
         if (isHit)
         {
             prop = rayHit.collider.gameObject;
-            SwipeMovement(prop);
+            Interact(prop);
         }
     }
 
@@ -24,6 +30,7 @@ public class SwipeProp : MonoBehaviour
         //refresh position
         startPosition = swipeDelta = Vector2.zero;
         isDragging = false;
+        click = false;
     }
 
     void SwipeControl()
@@ -32,14 +39,13 @@ public class SwipeProp : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             //get initial position of the mouse
-
+            click = true;
             isDragging = true;
             startPosition = Input.mousePosition;
         }
         else if (Input.GetMouseButtonUp(0))
         {
             //reset the position of mouse
-            isDragging = false;
             Reset();
         }
 
@@ -74,7 +80,7 @@ public class SwipeProp : MonoBehaviour
 
     }
 
-    void SwipeMovement(GameObject item)
+    void Interact(GameObject item)
     {
         if (item.CompareTag("Prop"))
         {
@@ -89,6 +95,16 @@ public class SwipeProp : MonoBehaviour
                 //move to the right
                 item.transform.position += Vector3.right;
                 swipeRight = false;
+            }
+        }
+        else if (item.CompareTag("Wardrobe"))
+        {
+            if (click)
+            {
+                wardrobe.sprite = openWardrobe;
+            } else
+            {
+                wardrobe.sprite = closedWardrobe;
             }
         }
         
