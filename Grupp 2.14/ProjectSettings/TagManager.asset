@@ -3,7 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Manuscript
+  - Script Text
+  - Blank Space
+  - Word Box
+  - Text Child
+  - Background
+  - Floor
+  - Character
+  - King
+  - Chameleon
+  - Guard 1
+  - Black Screen
+  - Text Bubble
   layers:
   - Default
   - TransparentFX
