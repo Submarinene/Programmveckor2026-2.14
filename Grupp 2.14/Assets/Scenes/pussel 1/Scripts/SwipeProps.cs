@@ -3,7 +3,6 @@ using static UnityEngine.Rigidbody2D;
 
 public class SwipeProp : MonoBehaviour
 {
-    Vector3 mousePosition;
     RaycastHit rayHit;
     GameObject prop;
     bool isHit;

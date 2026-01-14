@@ -19,6 +19,10 @@ public class CollectPieces : MonoBehaviour
     void Update()
     {
         counter.text = count.ToString();
+        if (count == 9)
+        {
+            //go to next puzzle
+        }
         if (Input.GetMouseButtonDown(0))
         {
             mousePosition = Input.mousePosition;
