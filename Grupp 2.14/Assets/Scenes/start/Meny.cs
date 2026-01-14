@@ -26,12 +26,13 @@ public class Meny : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(4);
     }
-    public void TeaterScen2()
+
+    public void Cutscene1()
     {
         SceneManager.LoadSceneAsync(5);
     }
 
-   public void doExitGame()
+    public void doExitGame()
     {
         Application.Quit();
     }
