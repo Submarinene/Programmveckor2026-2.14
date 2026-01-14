@@ -1,7 +1,5 @@
 using UnityEngine;
 using TMPro;
-using System.Linq;
-using static UnityEditor.Progress;
 
 public class CollectPieces : MonoBehaviour
 {
@@ -10,19 +8,45 @@ public class CollectPieces : MonoBehaviour
     GameObject item;
     bool isHit;
     [SerializeField] TextMeshProUGUI counter;
+    [SerializeField] GameObject pieceIcon;
     int count = 0;
 
     private void Start()
     {
         counter.text = count.ToString();
+        counter.gameObject.SetActive(true);
+        pieceIcon.SetActive(true);
     }
     void Update()
     {
         counter.text = count.ToString();
+        MouseController();
+        Win();
+    }
+
+    void CollectItem(GameObject item)
+    {
+        if (item.CompareTag("Piece"))
+        {
+            Debug.Log("You collected a piece!");
+            count += 1;
+            Destroy(item);
+        }
+    }
+
+    public bool Win()
+    {
         if (count == 9)
         {
-            //go to next puzzle
+            pieceIcon.SetActive(false);
+            counter.gameObject.SetActive(false);
+            return true;
         }
+        return false;
+    }
+
+    void MouseController()
+    {
         if (Input.GetMouseButtonDown(0))
         {
             mousePosition = Input.mousePosition;
@@ -38,16 +62,6 @@ public class CollectPieces : MonoBehaviour
             {
                 Debug.Log("Empty Space");
             }
-        }
-    }
-
-    void CollectItem(GameObject item)
-    {
-        if (item.CompareTag("Piece"))
-        {
-            Debug.Log("You collected a piece!");
-            count += 1;
-            Destroy(item);
         }
     }
 }
