@@ -679,11 +679,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 
+  cloudProjectId: bbf9ebf4-755a-45bd-8a29-911a52b3aa8f
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: Grupp 2.14 2026-01-14_10-56-06
+  organizationId: unity_02339b21ecf296a1e793
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
