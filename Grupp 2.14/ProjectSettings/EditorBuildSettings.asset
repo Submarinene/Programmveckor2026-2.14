@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/start.unity
     guid: b372748214a3c8b4e8680d29260b74f1
   - enabled: 1
-    path: Assets/Scenes/pussel 1/pussel 1.unity
+    path: Assets/Scenes/pussel 1/TestSceneEstella.unity
     guid: 871018781244c9b48bc0b16aea51cbe7
   - enabled: 1
     path: Assets/Scenes/pussel 2(typ).unity
