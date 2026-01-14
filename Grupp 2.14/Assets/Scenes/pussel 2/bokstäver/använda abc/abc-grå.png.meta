@@ -633,7 +633,7 @@ TextureImporter:
         width: 340
         height: 340
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -655,7 +655,7 @@ TextureImporter:
         width: 340
         height: 340
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -677,7 +677,7 @@ TextureImporter:
         width: 340
         height: 340
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -699,7 +699,7 @@ TextureImporter:
         width: 340
         height: 340
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -721,7 +721,7 @@ TextureImporter:
         width: 340
         height: 340
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -730,6 +730,28 @@ TextureImporter:
       bones: []
       spriteID: 8a1049d3d1909504293c996a97735c41
       internalID: 1035485278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "gr\xE5-ruta"
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1419
+        width: 148
+        height: 135
+      alignment: 9
+      pivot: {x: 0.4943498, y: 0.5201398}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7c8c60f018765428cc890bb0b1fb59
+      internalID: 2139432168
       vertices: []
       indices: 
       edges: []
@@ -760,6 +782,7 @@ TextureImporter:
       "e-gr\xE5": -1256794702
       "f-gr\xE5": -1054811635
       "g-gr\xE5": -172377140
+      "gr\xE5-ruta": 2139432168
       h-v: -832136747
       "i-gr\xE5": -416324309
       "j-gr\xE5": -968039708

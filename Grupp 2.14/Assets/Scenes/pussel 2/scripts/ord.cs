@@ -1,8 +1,11 @@
+using System.Numerics;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ord : MonoBehaviour
 {
+
     public bool ord0complete = false;
     public bool ord1complete = false;
     public bool ord2complete = false;
@@ -33,17 +36,86 @@ public class ord : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Return)) //när man trycker på enter så kör den på metoden puzzleComplete.... det ska bytas ut till när alla ord är färdiga
+
+        if (Input.GetKeyUp(KeyCode.Mouse0))
+        {
+
+            Debug.Log("test");
+
+            if (CheckCompleteWord(ord0))
+            {
+                ord0complete = true;
+                //gör alla dessa buttons ej interactable
+                LockWord(ord0);
+            }
+            if (CheckCompleteWord(ord1))
+            {
+                ord1complete = true;
+                LockWord(ord1);
+            }
+            if (CheckCompleteWord(ord2))
+            {
+                ord2complete = true;
+                LockWord(ord2);
+            }
+            if (CheckCompleteWord(ord3))
+            {
+                ord3complete = true;
+                LockWord(ord3);
+            }
+            if (CheckCompleteWord(ord4))
+            {
+                ord4complete = true;
+                LockWord(ord4);
+            }
+            if (CheckCompleteWord(ord5))
+            {
+                ord5complete = true;
+                LockWord(ord5);
+            }
+        }
+
+
+        if (ord0complete && ord1complete && ord2complete && ord3complete && ord4complete && ord5complete) //när alla ord är färdiga så kör den på metoden puzzleComplete 
         {
             puzzleComplete();
         }
     }
-
+     
     void puzzleComplete() //metod som ska köras när puzzlet är färdigt
     {
         completePuzzle.SetActive(true); // sätter på parenten/objektet som är insat på completePuzzle
     }
 
+    private void OnMouseUp()
+    {
+        Debug.Log("test");
+    }
+
+    bool CheckCompleteWord(GameObject[] ord)
+    {
+        bool complete = true;
+
+        foreach(GameObject bokstav in ord)
+        {
+            if(bokstav.GetComponent<ruta>().selected != true)
+            {
+                complete = false;
+            }
+
+        }
+        return complete;
+    }
+
+    void LockWord(GameObject[] ord)
+    {
+        foreach (GameObject bokstav in ord)
+        {
+            bokstav.GetComponent<Button>().image.color = Color.lightGreen; // gör ordet grönt
+            bokstav.GetComponent<ruta>().button.interactable = false; // gör att man inte kan ändra på färgen
+
+        }
+    }
 
 
 
