@@ -1,0 +1,1519 @@
+fileFormatVersion: 2
+guid: 322647a18a6f723468dd2404d2248f85
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 160
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lila-ABC_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1981
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1470a9935cfb1745846e8d673131dc5
+      internalID: 1951237558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_1
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1981
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a7d482a09b4ac4aa8644f965336bbf
+      internalID: 478522881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_2
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1989
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65d330695a2fc042b0ed25e107cfc44
+      internalID: -438031999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_3
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 1981
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90489d52c91489440850f4cc9ca8cf55
+      internalID: -726698984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_4
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1984
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8909d1c6619b044eadcc0dbf6b6328e
+      internalID: 682934659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_5
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1978
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103a3572839c9664bb00ecdc968ef7db
+      internalID: -177334037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1652
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0066f18a4c541142b431d4519fab393
+      internalID: 695024134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_17
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1652
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a78ae81d3e4f4488df32fb38e23dfe
+      internalID: 1033684919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_18
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1652
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968056ac495af4346909dd39f5afb2be
+      internalID: -543194560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_19
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 1726
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3510c309a92c4e6418a01a2fa6eb694d
+      internalID: -1953073214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_20
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1727
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33fcf6dc2db04a40853fca46ca363aa
+      internalID: -1801851428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_21
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1724
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1306b1956aaf23446ae93e0a8ca686c1
+      internalID: 69642285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1417
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10412cb7848870e46ac6546a0a438665
+      internalID: -525971749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_25
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1417
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a62995880ec2f842aefb6611193093e
+      internalID: -749808626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_26
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1417
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b92315d7eef76f4f9d7d2edf3ebb554
+      internalID: 1703525787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_27
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1417
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41a74bc81a97764491589ed078576bc
+      internalID: -1927486742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_28
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1417
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af61ef8b5aa93d498eadbd58f4d104a
+      internalID: -869395189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_29
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1417
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658cd20de9f657e4bade7d0d98db64cf
+      internalID: 1189742182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_30
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1417
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be13516fd68680f47b865c9c0e050b26
+      internalID: -1268517719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_31
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 1417
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d8a1e32c28e0248b0e8616204ba58d
+      internalID: -504628642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1182
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d025a2097da952543b2a2198225cab47
+      internalID: 1187558387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_33
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1182
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937ef921ba4716e4ebc02228c3794fcf
+      internalID: -173694188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_34
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1182
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a66767a31fb9374887be92d5928c5b2
+      internalID: 89560219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_35
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1182
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58160309cefff13478ec68c20af6aa5d
+      internalID: 675928790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_36
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1182
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5318c690f44bb418361ee3459b6bd4
+      internalID: 1308317156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_37
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1182
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc278dc25ebeba94fb46a34aa4549fef
+      internalID: -1123492595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_38
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1182
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc88e9cd2d2dea4e83bcf3479db4df3
+      internalID: -948117897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_39
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 1182
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96059f6ceb1d3fd4cb5821a13385f2d5
+      internalID: 1540083076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 947
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f088215f8d247db47873fdc1615e237f
+      internalID: 965841390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_41
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 947
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009d8e28ae622bd41a07bd241ca0e232
+      internalID: 1745501734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_42
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 947
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3f2087c3c06214491ded8b40fac986
+      internalID: -216520957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_43
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 947
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd975b6726e26248aa4927f5aa36a6e
+      internalID: 1255172071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_44
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 947
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e973fc93aa644b45990a78052169abd
+      internalID: -1239448596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_45
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 947
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f695dc469772a5499e3f67880c057ac
+      internalID: 1619278485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_46
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 947
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1976c210004e9a42a6e4dc7b790f4fb
+      internalID: 1542372413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_47
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 947
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0084ac1d07ada5b4784151c2a76048f9
+      internalID: -1957766607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 712
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bc577ab79a2dd4f8ab116b54a304af
+      internalID: -783402676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_49
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 712
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a58c3da588726a47ba38ede545068ae
+      internalID: 1803239409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_50
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 712
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7cd6d718b81df4da754addf41b87dd
+      internalID: -1052293112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_51
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 712
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b85eea09a8f2248b9887999de37eb8
+      internalID: 877006252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_52
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 712
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0436e3c6098abd489a045c0982c0ada
+      internalID: -916487370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_53
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 712
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17899a6b3126ad42a4fa807f82e2565
+      internalID: -1164856681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_54
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 712
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc1eb8f7b46af14397b5272db6af644
+      internalID: 2092249533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_55
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 712
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d352424494b07644fb15f7c792b7cd08
+      internalID: -439686966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 477
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b734eaf1ae79c84f952b22c0bbbfdef
+      internalID: 1188690220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_57
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 477
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b58d8582f670574186025ac27da9ad8
+      internalID: -1565252831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_58
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 477
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffb84403a18b5c4f9518e3000677029
+      internalID: -460859983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_59
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 477
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59df7900214852347a7292297fa7d442
+      internalID: -151541257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_60
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 477
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d141afb76b9959d4693e74d1117a0664
+      internalID: 153107328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_61
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 477
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9573d672c6817d46998b252462083a4
+      internalID: -1247221858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_62
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 477
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67405eb066d500341a4d1c4d6eb86c11
+      internalID: -1976521949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_63
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 477
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759c097249014f7418d5edb34b79a387
+      internalID: 1356829054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b28cee31611064eaaf9ca784ec5ed6
+      internalID: -981557120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_65
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 141
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f79110c68560b040b31a5ab841f3d1c
+      internalID: -1615499891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_66
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 156
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41952fe04f2f3c4ca8779ec54b5444e
+      internalID: 2039774496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_67
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 165
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651dd9ecc60ea514ab73f2806c579094
+      internalID: -1625493578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_68
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 167
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8e6d9263d53594092183991e20eb61
+      internalID: -1368058878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_69
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 167
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d4fa383e153684baafd288ad306a5e
+      internalID: -247362887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_70
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 165
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb47921a519bb841820f4c2b9578a3e
+      internalID: -1828423871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lila-ABC_71
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 162
+        width: 208
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1129d755ba9c52e43a4584324067f885
+      internalID: -1520691523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 77bd0b0aaeb8c5c4d88a53a325fb9f8c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":10.0},"gridSpriteSize":{"x":208.0,"y":235.0},"gridSpriteOffset":{"x":0.0,"y":10.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      lila-ABC_0: 1951237558
+      lila-ABC_1: 478522881
+      lila-ABC_10: -1166971746
+      lila-ABC_11: -1759805360
+      lila-ABC_12: 523877372
+      lila-ABC_13: -1713234450
+      lila-ABC_14: -2035942006
+      lila-ABC_15: 951528714
+      lila-ABC_16: 695024134
+      lila-ABC_17: 1033684919
+      lila-ABC_18: -543194560
+      lila-ABC_19: -1953073214
+      lila-ABC_2: -438031999
+      lila-ABC_20: -1801851428
+      lila-ABC_21: 69642285
+      lila-ABC_22: -1408963071
+      lila-ABC_23: -1278606692
+      lila-ABC_24: -525971749
+      lila-ABC_25: -749808626
+      lila-ABC_26: 1703525787
+      lila-ABC_27: -1927486742
+      lila-ABC_28: -869395189
+      lila-ABC_29: 1189742182
+      lila-ABC_3: -726698984
+      lila-ABC_30: -1268517719
+      lila-ABC_31: -504628642
+      lila-ABC_32: 1187558387
+      lila-ABC_33: -173694188
+      lila-ABC_34: 89560219
+      lila-ABC_35: 675928790
+      lila-ABC_36: 1308317156
+      lila-ABC_37: -1123492595
+      lila-ABC_38: -948117897
+      lila-ABC_39: 1540083076
+      lila-ABC_4: 682934659
+      lila-ABC_40: 965841390
+      lila-ABC_41: 1745501734
+      lila-ABC_42: -216520957
+      lila-ABC_43: 1255172071
+      lila-ABC_44: -1239448596
+      lila-ABC_45: 1619278485
+      lila-ABC_46: 1542372413
+      lila-ABC_47: -1957766607
+      lila-ABC_48: -783402676
+      lila-ABC_49: 1803239409
+      lila-ABC_5: -177334037
+      lila-ABC_50: -1052293112
+      lila-ABC_51: 877006252
+      lila-ABC_52: -916487370
+      lila-ABC_53: -1164856681
+      lila-ABC_54: 2092249533
+      lila-ABC_55: -439686966
+      lila-ABC_56: 1188690220
+      lila-ABC_57: -1565252831
+      lila-ABC_58: -460859983
+      lila-ABC_59: -151541257
+      lila-ABC_6: 973362005
+      lila-ABC_60: 153107328
+      lila-ABC_61: -1247221858
+      lila-ABC_62: -1976521949
+      lila-ABC_63: 1356829054
+      lila-ABC_64: -981557120
+      lila-ABC_65: -1615499891
+      lila-ABC_66: 2039774496
+      lila-ABC_67: -1625493578
+      lila-ABC_68: -1368058878
+      lila-ABC_69: -247362887
+      lila-ABC_7: 218725364
+      lila-ABC_70: -1828423871
+      lila-ABC_71: -1520691523
+      lila-ABC_72: 482159555
+      lila-ABC_73: 550275964
+      lila-ABC_74: 1561461073
+      lila-ABC_75: -273209731
+      lila-ABC_76: 358135698
+      lila-ABC_77: 118058067
+      lila-ABC_78: -1727735188
+      lila-ABC_79: -1367915478
+      lila-ABC_8: -1037162300
+      lila-ABC_9: 1527400014
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
