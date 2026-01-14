@@ -21,9 +21,9 @@ public class ruta : MonoBehaviour
     {
 
         if (selected)
-            button.image.color = Color.red;
+            button.image.color = Color.red; //byter färgen till röd
         else
-            button.image.color = Color.lightGray;
+            button.image.color = Color.lightGray; //byter färgen till ljus grå
     }
 
     

@@ -37,16 +37,13 @@ public class ord : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyUp(KeyCode.Mouse0))
+        if (Input.GetKeyUp(KeyCode.Mouse0)) //när man trycker på musknapp0
         {
 
-            Debug.Log("test");
-
-            if (CheckCompleteWord(ord0))
+            if (CheckCompleteWord(ord0)) //ifall ord är complete
             {
-                ord0complete = true;
-                //gör alla dessa buttons ej interactable
-                LockWord(ord0);
+                ord0complete = true; //sätter ordets bool = true
+                LockWord(ord0);  //gör alla dessa buttons ej interactable
             }
             if (CheckCompleteWord(ord1))
             {
@@ -87,18 +84,13 @@ public class ord : MonoBehaviour
         completePuzzle.SetActive(true); // sätter på parenten/objektet som är insat på completePuzzle
     }
 
-    private void OnMouseUp()
-    {
-        Debug.Log("test");
-    }
-
-    bool CheckCompleteWord(GameObject[] ord)
+    bool CheckCompleteWord(GameObject[] ord) //kollar listan av gameobjects per ord
     {
         bool complete = true;
 
-        foreach(GameObject bokstav in ord)
+        foreach(GameObject bokstav in ord) //för varje bokstav i listan 
         {
-            if(bokstav.GetComponent<ruta>().selected != true)
+            if(bokstav.GetComponent<ruta>().selected != true) //kollar ifall boolen från skriptet ruta är != selected
             {
                 complete = false;
             }
@@ -107,7 +99,7 @@ public class ord : MonoBehaviour
         return complete;
     }
 
-    void LockWord(GameObject[] ord)
+    void LockWord(GameObject[] ord) //metod för att "låsa" ord
     {
         foreach (GameObject bokstav in ord)
         {
@@ -119,7 +111,7 @@ public class ord : MonoBehaviour
 
 
 
-    void ord0Completed()
+   /* void ord0Completed() 
     {
         ord0complete = true;
 
@@ -148,7 +140,7 @@ public class ord : MonoBehaviour
     {
         ord5complete = true;
 
-    }
+    }*/
 
 
 
