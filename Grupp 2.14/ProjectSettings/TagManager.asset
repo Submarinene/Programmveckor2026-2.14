@@ -3,17 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Piece
+  - Prop
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Floor
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Props
+  - Pieces
+  - Character
   - 
   - 
   - 
