@@ -29,10 +29,10 @@ public class ruta : MonoBehaviour
         }*/
 
 
-        if (!selected)
-            button.image = image;
-        else
-            button.image = image2;
+        //if (!selected)
+            //button.image = image;
+        //else
+            //button.image = image2;
     }
 
    /* void metod()
