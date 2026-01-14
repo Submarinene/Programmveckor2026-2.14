@@ -29,10 +29,21 @@ public class ChatBubbles : MonoBehaviour
     [SerializeField] private TMP_Text messageText;
     [Tooltip("The Image component for the character's icon.")]
     [SerializeField] private Image characterIcon;
- 
+
     [Header("Conversation")]
     [SerializeField] private List<ChatMessage> conversation = new List<ChatMessage>();
-    [SerializeField] private float typingSpeed = 0.05f;
+    [SerializeField] private float typingSpeed = 0.01f;
+
+    [Header("Input")]
+    [SerializeField] private KeyCode advanceKey = KeyCode.Space;
+    [SerializeField] private bool requireInputToAdvance = true;
+
+    [Header("Skip Conversation")]
+    [SerializeField] private GameObject skipConfirmationObject;
+    [SerializeField] private GameObject skipButton;
+    [SerializeField] private TMP_Text skipConfirmationText;
+    [SerializeField] private string skipConfirmationMessage = "Are you sure you want to skip? Click Skip again to confirm.";
+    [SerializeField] private float skipConfirmationTimeout = 3.0f;
 
     [Header("Scene Transition")]
     [SerializeField] private Animator sceneTransitionAnimator;
@@ -41,6 +52,13 @@ public class ChatBubbles : MonoBehaviour
     [SerializeField] private string nextSceneName;
 
     private bool conversationStarted = false;
+    private bool endingSequenceStarted = false;
+    private bool isTyping = false;
+    private bool skipTypingRequested = false;
+    private bool advanceRequested = false;
+    private bool skipArmed = false;
+    private float skipArmedUntil = 0.0f;
+    private Coroutine conversationCoroutine;
 
     void Awake()
     {
@@ -49,11 +67,18 @@ public class ChatBubbles : MonoBehaviour
         {
             chatBubbleObject.SetActive(false);
         }
+
+        if (skipButton != null)
+        {
+            skipButton.SetActive(false);
+        }
+
+        ResetSkipConfirmation();
     }
 
     void Update()
     {
-        if (!conversationStarted && imageAnimator != null)
+        if (!conversationStarted && !endingSequenceStarted && imageAnimator != null)
         {
             AnimatorStateInfo stateInfo = imageAnimator.GetCurrentAnimatorStateInfo(0);
 
@@ -63,15 +88,41 @@ public class ChatBubbles : MonoBehaviour
                 StartConversation();
             }
         }
+
+        if (conversationStarted && !endingSequenceStarted)
+        {
+            if (Input.GetKeyDown(advanceKey))
+            {
+                if (isTyping)
+                {
+                    skipTypingRequested = true;
+                }
+                else
+                {
+                    advanceRequested = true;
+                }
+            }
+        }
+
+        if (skipArmed && Time.unscaledTime > skipArmedUntil)
+        {
+            ResetSkipConfirmation();
+        }
     }
 
     void StartConversation()
     {
+        if (endingSequenceStarted)
+        {
+            return;
+        }
+
         conversationStarted = true;
         if (chatBubbleObject != null && messageText != null && characterIcon != null)
         {
             chatBubbleObject.SetActive(true);
-            StartCoroutine(DisplayConversation());
+            skipButton.SetActive(true);
+            conversationCoroutine = StartCoroutine(DisplayConversation());
         }
         else
         {
@@ -81,38 +132,42 @@ public class ChatBubbles : MonoBehaviour
 
     IEnumerator DisplayConversation()
     {
-        foreach (var chatMessage in conversation)
+        for (int i = 0; i < conversation.Count; i++)
         {
+            var chatMessage = conversation[i];
+
             // Update character icon
             characterIcon.sprite = chatMessage.characterIcon;
             // Hide the icon if no sprite is provided for this message
             characterIcon.enabled = (chatMessage.characterIcon != null);
 
             // Type out the message
-            yield return StartCoroutine(TypeText(messageText, chatMessage.message));
+            isTyping = true;
+            skipTypingRequested = false;
+            yield return TypeText(messageText, chatMessage.message);
+            isTyping = false;
 
             // Wait for the specified delay after the message
-            yield return new WaitForSeconds(chatMessage.delayAfterMessage);
+            if (requireInputToAdvance)
+            {
+                advanceRequested = false;
+                yield return new WaitUntil(() => advanceRequested || endingSequenceStarted);
+            }
+            else
+            {
+                yield return new WaitForSeconds(chatMessage.delayAfterMessage);
+            }
+
+            if (endingSequenceStarted)
+            {
+                yield break;
+            }
         }
 
         // Optionally, hide the chat bubble after the conversation ends
-        if (chatBubbleObject != null)
-        {
-            chatBubbleObject.SetActive(false);
-        }
-
         // Trigger the end transition (fade to black)
-        if (sceneTransitionAnimator != null)
-        {
-            sceneTransitionAnimator.SetTrigger(endTransitionTrigger);
-            yield return new WaitForSeconds(transitionDuration);
-        }
-
         // Load the next scene
-        if (!string.IsNullOrEmpty(nextSceneName))
-        {
-            SceneManager.LoadScene(nextSceneName);
-        }
+        StartEndingSequence();
     }
 
     IEnumerator TypeText(TMP_Text textComp, string message)
@@ -120,8 +175,94 @@ public class ChatBubbles : MonoBehaviour
         textComp.text = "";
         foreach (char letter in message)
         {
+            if (skipTypingRequested)
+            {
+                break;
+            }
+
             textComp.text += letter;
             yield return new WaitForSeconds(typingSpeed);
+        }
+
+        textComp.text = message;
+    }
+
+    public void OnSkipConversationButtonPressed()
+    {
+        if (endingSequenceStarted)
+        {
+            return;
+        }
+
+        if (!skipArmed)
+        {
+            skipArmed = true;
+            skipArmedUntil = Time.unscaledTime + skipConfirmationTimeout;
+
+            if (skipConfirmationObject != null)
+            {
+                skipConfirmationObject.SetActive(true);
+            }
+
+            if (skipConfirmationText != null)
+            {
+                skipConfirmationText.text = skipConfirmationMessage;
+            }
+
+            return;
+        }
+
+        ResetSkipConfirmation();
+
+        if (conversationCoroutine != null)
+        {
+            StopCoroutine(conversationCoroutine);
+            conversationCoroutine = null;
+        }
+
+        StartEndingSequence();
+    }
+
+    private void StartEndingSequence()
+    {
+        if (endingSequenceStarted)
+        {
+            return;
+        }
+
+        endingSequenceStarted = true;
+        ResetSkipConfirmation();
+
+        if (chatBubbleObject != null)
+        {
+            chatBubbleObject.SetActive(false);
+        }
+
+        StartCoroutine(EndConversationSequence());
+    }
+
+    private IEnumerator EndConversationSequence()
+    {
+        if (sceneTransitionAnimator != null)
+        {
+            sceneTransitionAnimator.SetTrigger(endTransitionTrigger);
+            yield return new WaitForSeconds(transitionDuration);
+        }
+
+        if (!string.IsNullOrEmpty(nextSceneName))
+        {
+            SceneManager.LoadScene(nextSceneName);
+        }
+    }
+
+    private void ResetSkipConfirmation()
+    {
+        skipArmed = false;
+        skipArmedUntil = 0.0f;
+
+        if (skipConfirmationObject != null)
+        {
+            skipConfirmationObject.SetActive(false);
         }
     }
 }
