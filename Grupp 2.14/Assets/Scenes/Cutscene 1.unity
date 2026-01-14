@@ -347,7 +347,7 @@ MonoBehaviour:
       myself.
     characterIcon: {fileID: 21300000, guid: 9372bfbab2c227748b093c91b044911a, type: 3}
     delayAfterMessage: 2
-  typingSpeed: 0.05
+  typingSpeed: 0.001
   sceneTransitionAnimator: {fileID: 1226265514}
   endTransitionTrigger: FadeIn
   transitionDuration: 2
@@ -385,7 +385,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1019402560
 RectTransform:
   m_ObjectHideFlags: 0
