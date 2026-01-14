@@ -581,7 +581,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ABC_29
+      name: a-transparent
       rect:
         serializedVersion: 2
         x: 624
@@ -603,7 +603,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ABC_30
+      name: b-transparent
       rect:
         serializedVersion: 2
         x: 832
@@ -625,7 +625,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ABC_31
+      name: c-transparent
       rect:
         serializedVersion: 2
         x: 1040
@@ -647,7 +647,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ABC_32
+      name: d-transparent
       rect:
         serializedVersion: 2
         x: 1248
@@ -669,7 +669,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ABC_33
+      name: e-transparent
       rect:
         serializedVersion: 2
         x: 1456
@@ -691,7 +691,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ABC_34
+      name: f-transparent
       rect:
         serializedVersion: 2
         x: 0
@@ -713,7 +713,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ABC_35
+      name: g-transparent
       rect:
         serializedVersion: 2
         x: 208
@@ -735,7 +735,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ABC_36
+      name: h-transparent
       rect:
         serializedVersion: 2
         x: 416
@@ -757,7 +757,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ABC_37
+      name: i-transparent
       rect:
         serializedVersion: 2
         x: 624
@@ -779,7 +779,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ABC_38
+      name: j-transparent
       rect:
         serializedVersion: 2
         x: 832
@@ -801,7 +801,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ABC_39
+      name: k-transparent
       rect:
         serializedVersion: 2
         x: 1040
@@ -823,7 +823,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ABC_40
+      name: l-transparent
       rect:
         serializedVersion: 2
         x: 1248
@@ -845,7 +845,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ABC_41
+      name: m-transparent
       rect:
         serializedVersion: 2
         x: 1456
@@ -867,7 +867,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ABC_42
+      name: n-transparent
       rect:
         serializedVersion: 2
         x: 0
@@ -889,7 +889,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ABC_43
+      name: o-transparent
       rect:
         serializedVersion: 2
         x: 208
@@ -911,7 +911,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ABC_44
+      name: p-transparent
       rect:
         serializedVersion: 2
         x: 416
@@ -933,7 +933,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ABC_45
+      name: q-transparent
       rect:
         serializedVersion: 2
         x: 624
@@ -955,7 +955,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ABC_46
+      name: r-transparent
       rect:
         serializedVersion: 2
         x: 832
@@ -977,7 +977,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ABC_47
+      name: s-transparent
       rect:
         serializedVersion: 2
         x: 1040
@@ -999,7 +999,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ABC_48
+      name: t-transparent
       rect:
         serializedVersion: 2
         x: 1248
@@ -1021,7 +1021,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ABC_49
+      name: u-transparent
       rect:
         serializedVersion: 2
         x: 1456
@@ -1043,7 +1043,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ABC_50
+      name: v-transparent
       rect:
         serializedVersion: 2
         x: 0
@@ -1065,7 +1065,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ABC_51
+      name: w-transparent
       rect:
         serializedVersion: 2
         x: 208
@@ -1087,7 +1087,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ABC_52
+      name: x-transparent
       rect:
         serializedVersion: 2
         x: 416
@@ -1109,7 +1109,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ABC_53
+      name: y-transparent
       rect:
         serializedVersion: 2
         x: 624
@@ -1131,7 +1131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ABC_54
+      name: z-transparent
       rect:
         serializedVersion: 2
         x: 832
@@ -1148,248 +1148,6 @@ TextureImporter:
       bones: []
       spriteID: fa9011c3b3c24994897c7563ed8c8b47
       internalID: -1389523266
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ABC_55
-      rect:
-        serializedVersion: 2
-        x: 1040
-        y: 477
-        width: 208
-        height: 235
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18d131a78f52fe64ca93ef9039de9d95
-      internalID: -1528192086
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ABC_56
-      rect:
-        serializedVersion: 2
-        x: 1248
-        y: 477
-        width: 208
-        height: 235
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f1921333c80c2f4b9cd21f336576917
-      internalID: 830433397
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ABC_57
-      rect:
-        serializedVersion: 2
-        x: 1456
-        y: 477
-        width: 208
-        height: 235
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c857f024af79c6a4caaf6c70b301d254
-      internalID: -1243337183
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ABC_58
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 166
-        width: 208
-        height: 235
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7986fc49a3a6a1246b35c0cb94885ee4
-      internalID: -2129514202
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ABC_59
-      rect:
-        serializedVersion: 2
-        x: 211
-        y: 166
-        width: 208
-        height: 235
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c105045652aefa439285e39528b911a
-      internalID: -1619051052
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ABC_60
-      rect:
-        serializedVersion: 2
-        x: 424
-        y: 163
-        width: 208
-        height: 235
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ebde9816f5043b6408bfa1d316aae0f6
-      internalID: -40898688
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ABC_61
-      rect:
-        serializedVersion: 2
-        x: 624
-        y: 166
-        width: 208
-        height: 235
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f2163068f4dd24469036fd118dd3fad
-      internalID: 1183595513
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ABC_62
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 168
-        width: 208
-        height: 235
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 37a53f2f729c6ed4b8b2f0e528bf54b0
-      internalID: 914149373
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ABC_63
-      rect:
-        serializedVersion: 2
-        x: 1040
-        y: 166
-        width: 208
-        height: 235
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 37ae203b3437a0344ba3b3b0b4f36ff0
-      internalID: 1200213947
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ABC_64
-      rect:
-        serializedVersion: 2
-        x: 1251
-        y: 168
-        width: 208
-        height: 235
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5fd32c41357f3b543a898c9309a2c99c
-      internalID: 1726584277
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ABC_65
-      rect:
-        serializedVersion: 2
-        x: 1459
-        y: 165
-        width: 208
-        height: 235
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f2e5f08ef23aad444ae2cafba720ce5a
-      internalID: 171617762
       vertices: []
       indices: 
       edges: []
@@ -1454,35 +1212,9 @@ TextureImporter:
       ABC_26: 106371565
       ABC_27: -2113712788
       ABC_28: -156699818
-      ABC_29: -962899790
       ABC_3: -1363244809
-      ABC_30: 1456836073
-      ABC_31: 1131082730
-      ABC_32: 1947523371
-      ABC_33: 433427164
-      ABC_34: -2010935102
-      ABC_35: -1343932307
-      ABC_36: -522535080
-      ABC_37: -165983757
-      ABC_38: 398762365
-      ABC_39: -1025624463
       ABC_4: 1997252909
-      ABC_40: -1425489153
-      ABC_41: 1956425553
-      ABC_42: -2136916234
-      ABC_43: -916445517
-      ABC_44: -1868814574
-      ABC_45: 1535502276
-      ABC_46: 1814900738
-      ABC_47: 759217676
-      ABC_48: -1377391523
-      ABC_49: -1106408680
       ABC_5: -2102684369
-      ABC_50: 337011276
-      ABC_51: -798586570
-      ABC_52: 405416255
-      ABC_53: 1347776046
-      ABC_54: -1389523266
       ABC_55: -1528192086
       ABC_56: 830433397
       ABC_57: -1243337183
@@ -1506,6 +1238,32 @@ TextureImporter:
       ABC_73: -218611785
       ABC_8: -1193975285
       ABC_9: 161371377
+      a-transparent: -962899790
+      b-transparent: 1456836073
+      c-transparent: 1131082730
+      d-transparent: 1947523371
+      e-transparent: 433427164
+      f-transparent: -2010935102
+      g-transparent: -1343932307
+      h-transparent: -522535080
+      i-transparent: -165983757
+      j-transparent: 398762365
+      k-transparent: -1025624463
+      l-transparent: -1425489153
+      m-transparent: 1956425553
+      n-transparent: -2136916234
+      o-transparent: -916445517
+      p-transparent: -1868814574
+      q-transparent: 1535502276
+      r-transparent: 1814900738
+      s-transparent: 759217676
+      t-transparent: -1377391523
+      u-transparent: -1106408680
+      v-transparent: 337011276
+      w-transparent: -798586570
+      x-transparent: 405416255
+      y-transparent: 1347776046
+      z-transparent: -1389523266
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
