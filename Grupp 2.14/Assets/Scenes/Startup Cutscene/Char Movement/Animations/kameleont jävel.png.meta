@@ -1,0 +1,786 @@
+fileFormatVersion: 2
+guid: ecaaeccac19124740bbcad72d294590e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_0"
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 10236
+        width: 1068
+        height: 1974
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804c377fa2cba79469820acf4f59c9fd
+      internalID: 1105451944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_1"
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 10236
+        width: 1079
+        height: 1968
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c4e45645326ef49b875b57858ae6d2
+      internalID: -993555820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_2"
+      rect:
+        serializedVersion: 2
+        x: 4523
+        y: 10242
+        width: 1104
+        height: 1962
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0351f92db54d118458342afd49d2b5c6
+      internalID: -1974377802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_3"
+      rect:
+        serializedVersion: 2
+        x: 6557
+        y: 10242
+        width: 1116
+        height: 1956
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3238434352420458964378a905b6cd
+      internalID: -1415697473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_4"
+      rect:
+        serializedVersion: 2
+        x: 8590
+        y: 10254
+        width: 1128
+        height: 1938
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69d5e1d57b0983438c695b2676e5ba3
+      internalID: 527363819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_5"
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 8208
+        width: 1152
+        height: 1926
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905977faf393d8c459451d571d6f5b19
+      internalID: 1014782906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_6"
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 8214
+        width: 1169
+        height: 1914
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2bc321bc02f404a9ae53a80af6364e
+      internalID: 1179605166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_7"
+      rect:
+        serializedVersion: 2
+        x: 4445
+        y: 8226
+        width: 1188
+        height: 1902
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36e52745ccd6fc49b543ca3f772adaf
+      internalID: 746950361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_8"
+      rect:
+        serializedVersion: 2
+        x: 6473
+        y: 8238
+        width: 1223
+        height: 1884
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111b7efdfd4472644939c523d2de0387
+      internalID: -1655512677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_9"
+      rect:
+        serializedVersion: 2
+        x: 8512
+        y: 8220
+        width: 1230
+        height: 1914
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261e19d277454e140a1e417861af8205
+      internalID: -797415709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_10"
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 6156
+        width: 1188
+        height: 1932
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf49c7a6de60414a8b020068fe78c56
+      internalID: 369676266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_11"
+      rect:
+        serializedVersion: 2
+        x: 2418
+        y: 6150
+        width: 1157
+        height: 1944
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc09b07503810194d89bf6109737ddd2
+      internalID: 1882093329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_12"
+      rect:
+        serializedVersion: 2
+        x: 4487
+        y: 6150
+        width: 1140
+        height: 1950
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d1053f842af92439b5fb7befea56c1
+      internalID: -449444347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_13"
+      rect:
+        serializedVersion: 2
+        x: 6557
+        y: 6150
+        width: 1116
+        height: 1956
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8478e37b74fe74cbc74b0f24ad749e
+      internalID: 109069732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_14"
+      rect:
+        serializedVersion: 2
+        x: 8632
+        y: 6144
+        width: 1086
+        height: 1968
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72801de62b2772049a5c0121f29f3ffb
+      internalID: -498449853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_15"
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 4104
+        width: 1068
+        height: 1962
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250537438e4a10441b252859ad8108cc
+      internalID: -763887051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_16"
+      rect:
+        serializedVersion: 2
+        x: 2538
+        y: 4104
+        width: 1037
+        height: 1956
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3af7960473636d49b7f5f722809bb92
+      internalID: -992966647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_17"
+      rect:
+        serializedVersion: 2
+        x: 4607
+        y: 4092
+        width: 1020
+        height: 1968
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516a8922a54caed438fcd5f6556db044
+      internalID: 265378441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_18"
+      rect:
+        serializedVersion: 2
+        x: 6683
+        y: 4092
+        width: 990
+        height: 1962
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fa4ffb748aab448af5959a7631a057
+      internalID: -1316101096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_19"
+      rect:
+        serializedVersion: 2
+        x: 8704
+        y: 4092
+        width: 1014
+        height: 1956
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57429b23fbe5cc3449dcfc86b59c20fe
+      internalID: 1861734433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_20"
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 2052
+        width: 1068
+        height: 1938
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0737ec28f5bb0d64cb92be130e52b0b4
+      internalID: -1917752845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_21"
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 2076
+        width: 1121
+        height: 1914
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1c8333012678e4c8bd84db2e063e74
+      internalID: 1133923373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_22"
+      rect:
+        serializedVersion: 2
+        x: 4451
+        y: 2106
+        width: 1176
+        height: 1878
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c310cc6d8ad49b4b80cd82b8df76ce2
+      internalID: 649754212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_23"
+      rect:
+        serializedVersion: 2
+        x: 6473
+        y: 2124
+        width: 1200
+        height: 1860
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50947797779eaad40b47142082e96c03
+      internalID: -1690406626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_24"
+      rect:
+        serializedVersion: 2
+        x: 8536
+        y: 2118
+        width: 1182
+        height: 1872
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a138d25891f344f97ecc0ff983fe2a
+      internalID: -436308383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_25"
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 48
+        width: 1146
+        height: 1896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e145ac04d5eddc42927313308d92826
+      internalID: -125715468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_26"
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 12
+        width: 1091
+        height: 1938
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f428ebdcd87d7148b2a33a9d4471fd5
+      internalID: -1904823674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_27"
+      rect:
+        serializedVersion: 2
+        x: 4595
+        y: 0
+        width: 1032
+        height: 1962
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b736059e2c9cb49a06aaf95b2ca8ae
+      internalID: -1758562140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "kameleont j\xE4vel_28"
+      rect:
+        serializedVersion: 2
+        x: 6623
+        y: 0
+        width: 1050
+        height: 1962
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1feb60801a09bf94881a573691db79bc
+      internalID: 713817485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      "kameleont j\xE4vel_0": 1105451944
+      "kameleont j\xE4vel_1": -993555820
+      "kameleont j\xE4vel_10": 369676266
+      "kameleont j\xE4vel_11": 1882093329
+      "kameleont j\xE4vel_12": -449444347
+      "kameleont j\xE4vel_13": 109069732
+      "kameleont j\xE4vel_14": -498449853
+      "kameleont j\xE4vel_15": -763887051
+      "kameleont j\xE4vel_16": -992966647
+      "kameleont j\xE4vel_17": 265378441
+      "kameleont j\xE4vel_18": -1316101096
+      "kameleont j\xE4vel_19": 1861734433
+      "kameleont j\xE4vel_2": -1974377802
+      "kameleont j\xE4vel_20": -1917752845
+      "kameleont j\xE4vel_21": 1133923373
+      "kameleont j\xE4vel_22": 649754212
+      "kameleont j\xE4vel_23": -1690406626
+      "kameleont j\xE4vel_24": -436308383
+      "kameleont j\xE4vel_25": -125715468
+      "kameleont j\xE4vel_26": -1904823674
+      "kameleont j\xE4vel_27": -1758562140
+      "kameleont j\xE4vel_28": 713817485
+      "kameleont j\xE4vel_3": -1415697473
+      "kameleont j\xE4vel_4": 527363819
+      "kameleont j\xE4vel_5": 1014782906
+      "kameleont j\xE4vel_6": 1179605166
+      "kameleont j\xE4vel_7": 746950361
+      "kameleont j\xE4vel_8": -1655512677
+      "kameleont j\xE4vel_9": -797415709
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

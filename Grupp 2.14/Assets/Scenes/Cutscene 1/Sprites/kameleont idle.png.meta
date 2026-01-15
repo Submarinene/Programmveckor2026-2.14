@@ -1,0 +1,671 @@
+fileFormatVersion: 2
+guid: fbb2ff1de32c0f34ca9ea878b306772b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kameleont idle_0
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 8190
+        width: 1060
+        height: 2015
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b8ef1052857484c991f393f943b1b4
+      internalID: -836727519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kameleont idle_1
+      rect:
+        serializedVersion: 2
+        x: 2515
+        y: 8190
+        width: 1055
+        height: 2015
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3992d033fa181ec4aa342e1bc55be10f
+      internalID: 172289782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kameleont idle_2
+      rect:
+        serializedVersion: 2
+        x: 4570
+        y: 8190
+        width: 1045
+        height: 2015
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01d2d9f06a5b354ea46021ab85822b4
+      internalID: 1912519458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kameleont idle_3
+      rect:
+        serializedVersion: 2
+        x: 6625
+        y: 8190
+        width: 1040
+        height: 2010
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b13145b1ff9b94b9b5113b549511ab
+      internalID: -1425867062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kameleont idle_4
+      rect:
+        serializedVersion: 2
+        x: 8680
+        y: 8190
+        width: 1035
+        height: 2010
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ae75dfc887cbe49bfd280ee5b2e5d2
+      internalID: -115227314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kameleont idle_5
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 6140
+        width: 1025
+        height: 2010
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b580722bb33eba4aaed60f5d3c8c0e0
+      internalID: -65655499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kameleont idle_6
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 6140
+        width: 1020
+        height: 2010
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59df6b8af29b47c46bc0642c71ad9a18
+      internalID: 763465287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kameleont idle_7
+      rect:
+        serializedVersion: 2
+        x: 4605
+        y: 6140
+        width: 1010
+        height: 2005
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5780ded30bad2f349a7726b3f68168fd
+      internalID: 205833979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kameleont idle_8
+      rect:
+        serializedVersion: 2
+        x: 6645
+        y: 6140
+        width: 1020
+        height: 2005
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18d3ea5410db424b93896444691aa10
+      internalID: -1398243552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kameleont idle_9
+      rect:
+        serializedVersion: 2
+        x: 8685
+        y: 6140
+        width: 1025
+        height: 2005
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ca1ac810b09114d8fe7f07a0dc2b8a
+      internalID: -2108781883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kameleont idle_10
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 4090
+        width: 1035
+        height: 2005
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b63af14e4555c458478b766bb6fe34
+      internalID: 1458381251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kameleont idle_11
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 4090
+        width: 1045
+        height: 2005
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c1252df7bd9c44ea96fefeabaa1e41
+      internalID: 1566625703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kameleont idle_12
+      rect:
+        serializedVersion: 2
+        x: 4565
+        y: 4090
+        width: 1050
+        height: 2005
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a111d9e9ec0134f85016589febaad5
+      internalID: 1480730134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kameleont idle_13
+      rect:
+        serializedVersion: 2
+        x: 6605
+        y: 4090
+        width: 1060
+        height: 2005
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5c14df8fdaf1942b678625b23025ec
+      internalID: 418985828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kameleont idle_14
+      rect:
+        serializedVersion: 2
+        x: 8645
+        y: 4090
+        width: 1065
+        height: 2005
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f73251b793c0743a792ff4793e8031
+      internalID: -2069735637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kameleont idle_15
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2045
+        width: 1070
+        height: 2005
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fc40d838c742f4d80ea5b37096695d
+      internalID: 1987138235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kameleont idle_16
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 2045
+        width: 1080
+        height: 2005
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fca105e16952b4b8993889b5e6b522
+      internalID: 54745257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kameleont idle_17
+      rect:
+        serializedVersion: 2
+        x: 4530
+        y: 2045
+        width: 1085
+        height: 2010
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5ae5882dd5aee4fbbbc6d501f6fe63
+      internalID: 1632900464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kameleont idle_18
+      rect:
+        serializedVersion: 2
+        x: 6575
+        y: 2045
+        width: 1090
+        height: 2010
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caaf731c2d84d3945b1be3741ae4fcc1
+      internalID: 1671964646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kameleont idle_19
+      rect:
+        serializedVersion: 2
+        x: 8615
+        y: 2045
+        width: 1095
+        height: 2010
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0f2fa95a925034a9aee054298c154e
+      internalID: 1051760450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kameleont idle_20
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 0
+        width: 1090
+        height: 2010
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98834a6df5d1ade448508aa025e55be5
+      internalID: 1777032764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kameleont idle_21
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 0
+        width: 1085
+        height: 2010
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66de85b5c9438f4e965a53e11594501
+      internalID: 188615556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kameleont idle_22
+      rect:
+        serializedVersion: 2
+        x: 4540
+        y: 0
+        width: 1075
+        height: 2015
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8eacc03aa6df154cb5cde396cad0a22
+      internalID: -900076007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kameleont idle_23
+      rect:
+        serializedVersion: 2
+        x: 6595
+        y: 0
+        width: 1070
+        height: 2015
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f2a2b5d8a3eb44cbdf9cd9832eaaa3
+      internalID: 1613417025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1280.0,"y":2560.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      kameleont idle_0: -836727519
+      kameleont idle_1: 172289782
+      kameleont idle_10: 1458381251
+      kameleont idle_11: 1566625703
+      kameleont idle_12: 1480730134
+      kameleont idle_13: 418985828
+      kameleont idle_14: -2069735637
+      kameleont idle_15: 1987138235
+      kameleont idle_16: 54745257
+      kameleont idle_17: 1632900464
+      kameleont idle_18: 1671964646
+      kameleont idle_19: 1051760450
+      kameleont idle_2: 1912519458
+      kameleont idle_20: 1777032764
+      kameleont idle_21: 188615556
+      kameleont idle_22: -900076007
+      kameleont idle_23: 1613417025
+      kameleont idle_3: -1425867062
+      kameleont idle_4: -115227314
+      kameleont idle_5: -65655499
+      kameleont idle_6: 763465287
+      kameleont idle_7: 205833979
+      kameleont idle_8: -1398243552
+      kameleont idle_9: -2108781883
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -20,6 +20,9 @@ TagManager:
   - Black Screen
   - Text Bubble
   - Skip Button
+  - Villager1
+  - Villager2
+  - RightCollider
   layers:
   - Default
   - TransparentFX
