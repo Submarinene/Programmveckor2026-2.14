@@ -22,7 +22,6 @@ public class DragControl : MonoBehaviour
         spriteRenderer = wordBox.GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         ogWorldBoxPos = wordBox.transform.position;
-
         CreateGlowOutline();
     }
 

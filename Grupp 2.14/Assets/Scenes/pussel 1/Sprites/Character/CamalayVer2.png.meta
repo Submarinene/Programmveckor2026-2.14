@@ -1,0 +1,260 @@
+fileFormatVersion: 2
+guid: 905360ce0a2d9ac4ab55e1296e7312c8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CamalayVer2_19
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1171
+        width: 386
+        height: 723
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb7b7b34530cca459455b4dba05f4da
+      internalID: -1240258960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamalayVer2_24
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1150
+        width: 448
+        height: 744
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac8a616b3536a545835386001803259
+      internalID: 1861567618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CamalayVer2_27
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 1158
+        width: 448
+        height: 744
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f9036bbbe34b649819e1757841ed7e
+      internalID: -1107236686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1d6ccaab7daf6ad43998ae97e9d77d36
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      CamalayVer2_0: 435987685
+      CamalayVer2_1: 1440770755
+      CamalayVer2_10: -631483393
+      CamalayVer2_11: 1641825276
+      CamalayVer2_12: 72964944
+      CamalayVer2_13: 1504839514
+      CamalayVer2_14: -1677400732
+      CamalayVer2_15: 1385931438
+      CamalayVer2_16: -1603783329
+      CamalayVer2_17: 1036449041
+      CamalayVer2_18: 444572490
+      CamalayVer2_19: -1240258960
+      CamalayVer2_2: -626309891
+      CamalayVer2_20: -2044048909
+      CamalayVer2_21: 1592645144
+      CamalayVer2_22: 309603958
+      CamalayVer2_23: -1946816612
+      CamalayVer2_24: 1861567618
+      CamalayVer2_25: -1141547394
+      CamalayVer2_26: -16159427
+      CamalayVer2_27: -1107236686
+      CamalayVer2_28: 2122359184
+      CamalayVer2_29: -676642161
+      CamalayVer2_3: -1439023454
+      CamalayVer2_30: -2135155063
+      CamalayVer2_31: -2102918190
+      CamalayVer2_32: 573136347
+      CamalayVer2_33: 733801425
+      CamalayVer2_34: -256701908
+      CamalayVer2_35: -238879640
+      CamalayVer2_36: -1707176124
+      CamalayVer2_37: -39120588
+      CamalayVer2_38: -774383832
+      CamalayVer2_39: -399619196
+      CamalayVer2_4: -464210144
+      CamalayVer2_40: 1303747148
+      CamalayVer2_41: 2081399012
+      CamalayVer2_42: 265166283
+      CamalayVer2_43: 469448654
+      CamalayVer2_44: -1344805844
+      CamalayVer2_45: 219340713
+      CamalayVer2_46: 1071510733
+      CamalayVer2_47: 1440082254
+      CamalayVer2_48: -16144890
+      CamalayVer2_49: 1787820072
+      CamalayVer2_5: -1617269625
+      CamalayVer2_50: 581579228
+      CamalayVer2_51: -1739244682
+      CamalayVer2_52: 711620939
+      CamalayVer2_53: -639554176
+      CamalayVer2_54: -645500633
+      CamalayVer2_55: -228395072
+      CamalayVer2_56: -1627048181
+      CamalayVer2_57: 1712093601
+      CamalayVer2_58: 119218773
+      CamalayVer2_59: 244822614
+      CamalayVer2_6: -384072183
+      CamalayVer2_60: -1102323621
+      CamalayVer2_61: 876009705
+      CamalayVer2_62: -1635911368
+      CamalayVer2_63: 2060218191
+      CamalayVer2_64: 1170631004
+      CamalayVer2_65: 1384365908
+      CamalayVer2_66: 404301663
+      CamalayVer2_67: 91009814
+      CamalayVer2_68: -1468433574
+      CamalayVer2_69: 392940707
+      CamalayVer2_7: 172653369
+      CamalayVer2_70: 1440372451
+      CamalayVer2_71: 779939519
+      CamalayVer2_72: -2078342247
+      CamalayVer2_73: 1944348253
+      CamalayVer2_74: -1587258823
+      CamalayVer2_8: 883053257
+      CamalayVer2_9: 37047723
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
