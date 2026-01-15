@@ -28,7 +28,6 @@ public class ChatBubbles : MonoBehaviour
     [Tooltip("The TextMeshPro component where messages will be displayed.")]
     [SerializeField] private TMP_Text messageText;
     [Tooltip("The Image component for the character's icon.")]
-    [SerializeField] private Image characterIcon;
 
     [Header("Conversation")]
     [SerializeField] private List<ChatMessage> conversation = new List<ChatMessage>();
@@ -76,6 +75,15 @@ public class ChatBubbles : MonoBehaviour
         ResetSkipConfirmation();
     }
 
+    void Start()
+    {
+        // Start conversation immediately if no animator is set up
+        if (imageAnimator == null && !conversationStarted)
+        {
+            StartConversation();
+        }
+    }
+
     void Update()
     {
         if (!conversationStarted && !endingSequenceStarted && imageAnimator != null)
@@ -118,7 +126,7 @@ public class ChatBubbles : MonoBehaviour
         }
 
         conversationStarted = true;
-        if (chatBubbleObject != null && messageText != null && characterIcon != null)
+        if (chatBubbleObject != null && messageText != null)
         {
             chatBubbleObject.SetActive(true);
             skipButton.SetActive(true);
@@ -126,7 +134,7 @@ public class ChatBubbles : MonoBehaviour
         }
         else
         {
-            Debug.LogError("No UI Element assigned in the Inspector", this);
+            Debug.LogError("Chat bubble or message text not assigned in the Inspector", this);
         }
     }
 
@@ -135,11 +143,6 @@ public class ChatBubbles : MonoBehaviour
         for (int i = 0; i < conversation.Count; i++)
         {
             var chatMessage = conversation[i];
-
-            // Update character icon
-            characterIcon.sprite = chatMessage.characterIcon;
-            // Hide the icon if no sprite is provided for this message
-            characterIcon.enabled = (chatMessage.characterIcon != null);
 
             // Type out the message
             isTyping = true;
@@ -236,6 +239,11 @@ public class ChatBubbles : MonoBehaviour
         if (chatBubbleObject != null)
         {
             chatBubbleObject.SetActive(false);
+        }
+
+        if(skipButton != null)
+        {
+            skipButton.SetActive(false);
         }
 
         StartCoroutine(EndConversationSequence());
