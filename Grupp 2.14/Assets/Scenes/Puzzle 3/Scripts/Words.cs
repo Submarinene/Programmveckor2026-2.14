@@ -11,7 +11,6 @@ public class Words : MonoBehaviour
     public bool word2 = false;
     public bool word3 = false;
     public bool word4 = false;
-    public bool word5 = false;
 
     [SerializeField]
     public GameObject w0;
@@ -23,8 +22,6 @@ public class Words : MonoBehaviour
     public GameObject w3;
     [SerializeField]
     public GameObject w4;
-    [SerializeField]
-    public GameObject w5;
 
     [SerializeField] GameObject completePuzzle3; //ställe att lägga parenten som heter complete puzzle
 
@@ -80,12 +77,12 @@ public class Words : MonoBehaviour
         completePuzzle3.SetActive(true); // sätter på parenten/objektet som är insat på completePuzzle
     }
 
-    bool CheckWordRightSpot(GameObject word) //kollar listan av gameobjects per ord
+    bool CheckWordRightSpot(GameObject word) //kollar gameobjects 
     {
         bool complete = true;
 
        
-            if (word.GetComponent<word>().selected != true) //kollar ifall boolen från skriptet ruta är != selected
+            if (word.GetComponent<word>().isTouchingCorrectBlank != true) //kollar ifall boolen från skriptet word är != selected
             {
                 complete = false;
             }

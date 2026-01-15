@@ -4,27 +4,45 @@ using UnityEngine.UI;
 
 public class word : MonoBehaviour
 {
-    public bool selected = false;
-    public TextMeshProUGUI texten;
+  
+    public TextMeshPro texten;
+    public bool isTouchingCorrectBlank = false;
+    [SerializeField] GameObject correctBlankSpace;
 
     private void Start()
     {
-        texten = GetComponent<TextMeshProUGUI>();
+        texten = GetComponent<TextMeshPro>();
     }
     public void makeOrdSelected()
     {
-        selected = !selected; //if bool = true then bool = false and vise versa
-        ordGraphics();
+        if(isTouchingCorrectBlank == true)
+        {
+            ordGraphics();
+        }
+           
     }
 
     void ordGraphics()
     {
 
-        if (selected)
+        if (isTouchingCorrectBlank)
             texten.color = Color.green; //byter färgen till röd
         else
             texten.color = Color.black; //byter färgen till röd
     }
 
-
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Blank Space"))
+        {
+            if (collision.gameObject == correctBlankSpace)
+            {
+                isTouchingCorrectBlank = true;
+            }
+            else
+            {
+                isTouchingCorrectBlank = false;
+            }
+        }
+    }
 }
