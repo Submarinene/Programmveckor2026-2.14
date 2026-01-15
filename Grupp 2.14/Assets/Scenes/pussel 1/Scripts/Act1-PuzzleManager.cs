@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PuzzleManager : MonoBehaviour
+public class Act1PuzzleManager : MonoBehaviour
 {
     [SerializeField] CollectPieces collectScript;
     [SerializeField] LinearTime timerScript;
