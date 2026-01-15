@@ -1372,7 +1372,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Test
   sceneTransitionAnimator: {fileID: 496267938}
   endTransitionTrigger: FadeIn
-  transitionDuration: 2
+  transitionDuration: 1
   startButton: {fileID: 2106190572}
   quitButton: {fileID: 619874441}
 --- !u!4 &1154273326
