@@ -952,7 +952,7 @@ MonoBehaviour:
   sceneTransitionAnimator: {fileID: 1226265514}
   endTransitionTrigger: FadeIn
   transitionDuration: 2
-  nextSceneName: pussel 2(typ)
+  nextSceneName: Act1 - Collect&Assemble
 --- !u!4 &743645362
 Transform:
   m_ObjectHideFlags: 0

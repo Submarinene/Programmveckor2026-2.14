@@ -11,7 +11,7 @@ public class DragControl : MonoBehaviour
 
     private Vector3 ogWorldBoxPos;
     private bool isPlaced = false;
-    private bool isTouchingCorrectBlank = false;
+    public bool isTouchingCorrectBlank = false;
     private SpriteRenderer spriteRenderer;
     private GameObject glowOutline;
     private SpriteRenderer glowRenderer;
