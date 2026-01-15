@@ -146,14 +146,14 @@ RectTransform:
   m_GameObject: {fileID: 30753366}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.099999994, y: 0.65424454, z: 0.44483054}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 0.12, y: 0.08, z: 0.36859632}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1871351111}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -44.3, y: 13.3}
+  m_AnchoredPosition: {x: -20.12, y: -23.8}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &30753368
@@ -331,7 +331,7 @@ SpriteRenderer:
   m_Size: {x: 8.85, y: 8.85}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &60309305
@@ -2046,16 +2046,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1324634448}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.14, y: 0.85, z: 0.14}
+  m_LocalScale: {x: 0.11600704, y: 0.11303802, z: 0.11600706}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1871351111}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.03, y: -1.48}
+  m_AnchoredPosition: {x: 25.78, y: -25}
   m_SizeDelta: {x: 600, y: 97.8609}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1324634450
@@ -2897,6 +2897,13 @@ MonoBehaviour:
     characterIcon: {fileID: 981645711, guid: 01db6801d09f6e549b4b436b04616fa7, type: 3}
     delayAfterMessage: 1
   typingSpeed: 0.25
+  advanceKey: 32
+  requireInputToAdvance: 1
+  skipConfirmationObject: {fileID: 0}
+  skipButton: {fileID: 0}
+  skipConfirmationText: {fileID: 0}
+  skipConfirmationMessage: Are you sure you want to skip? Click Skip again to confirm.
+  skipConfirmationTimeout: 3
   sceneTransitionAnimator: {fileID: 1521198845}
   endTransitionTrigger: FadeIn
   transitionDuration: 2
@@ -3033,16 +3040,16 @@ RectTransform:
   m_GameObject: {fileID: 1871351110}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 15.495228, y: 2.3684156, z: 3.4834}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 18.7, y: 17.809525, z: 4.203848}
+  m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 30753367}
   - {fileID: 1324634449}
+  - {fileID: 30753367}
   m_Father: {fileID: 1246786364}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -486.1}
+  m_AnchoredPosition: {x: 0, y: 1.9}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1871351112
@@ -3065,7 +3072,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 1412f8c3a19e8cd46b1946b16873b115, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

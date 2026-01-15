@@ -10,26 +10,45 @@ public class Meny : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(0);
     }
-    public void pussel1()
+    public void StartCutscene1()
     {
         SceneManager.LoadSceneAsync(1);
     }
-    public void pussel2()
+    public void StartCutscene2()
     {
         SceneManager.LoadSceneAsync(2);
     }
-    public void pussel3()
+    public void pussStartCutscene3()
     {
         SceneManager.LoadSceneAsync(3);
     }
-    public void TeaterScen1()
+    public void StartCutscene4()
     {
         SceneManager.LoadSceneAsync(4);
     }
-
     public void Cutscene1()
     {
         SceneManager.LoadSceneAsync(5);
+    }
+    public void pussel1()
+    {
+        SceneManager.LoadSceneAsync(6);
+    }
+    public void TestsceneEstella()
+    {
+        SceneManager.LoadSceneAsync(7);
+    }
+    public void pussel2p1()
+    {
+        SceneManager.LoadSceneAsync(8);
+    }
+    public void pussel2p2()
+    {
+        SceneManager.LoadSceneAsync(9);
+    }
+    public void cutscene2()
+    {
+        SceneManager.LoadSceneAsync(10);
     }
 
     public void doExitGame()

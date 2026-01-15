@@ -5854,7 +5854,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1945287036}
         m_TargetAssemblyTypeName: Meny, Assembly-CSharp
-        m_MethodName: pussel3
+        m_MethodName: pussel2p2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
