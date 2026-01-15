@@ -50,6 +50,10 @@ public class Meny : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(10);
     }
+    public void cutscene3()
+    {
+        SceneManager.LoadSceneAsync(11);
+    }
 
     public void doExitGame()
     {
