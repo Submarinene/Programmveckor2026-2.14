@@ -457,8 +457,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 496267941}
   - {fileID: 262251651}
+  - {fileID: 496267941}
   - {fileID: 831549076}
   - {fileID: 322081151}
   m_Father: {fileID: 0}
@@ -1071,6 +1071,8 @@ MonoBehaviour:
   sceneTransitionAnimator: {fileID: 496267938}
   endTransitionTrigger: FadeIn
   transitionDuration: 2
+  startButton: {fileID: 831549075}
+  quitButton: {fileID: 322081150}
 --- !u!4 &1154273326
 Transform:
   m_ObjectHideFlags: 0
