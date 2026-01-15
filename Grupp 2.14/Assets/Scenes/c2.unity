@@ -1262,7 +1262,7 @@ GameObject:
   - component: {fileID: 687086307}
   - component: {fileID: 687086306}
   m_Layer: 0
-  m_Name: viseman
+  m_Name: Bartholomew
   m_TagString: Guard 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2870,33 +2870,33 @@ MonoBehaviour:
   conversation:
   - message: AHA!
     characterIcon: {fileID: 981645711, guid: 01db6801d09f6e549b4b436b04616fa7, type: 3}
-    delayAfterMessage: 2
+    delayAfterMessage: 1
   - message: ARE YOU NOW?
     characterIcon: {fileID: 981645711, guid: 01db6801d09f6e549b4b436b04616fa7, type: 3}
-    delayAfterMessage: 2
+    delayAfterMessage: 1
   - message: "WELL\u2026 IF IT\u2019S FOR AN AUTOGRAPH FROM THE MIGHTY DRAGON YOU\u2019RE
       AFTER,"
     characterIcon: {fileID: 981645711, guid: 01db6801d09f6e549b4b436b04616fa7, type: 3}
-    delayAfterMessage: 1
+    delayAfterMessage: 0.5
   - message: THAN PERHAPS I SHALL LET YOU PASS?
     characterIcon: {fileID: 981645711, guid: 01db6801d09f6e549b4b436b04616fa7, type: 3}
-    delayAfterMessage: 2
+    delayAfterMessage: 1
   - message: HM?
     characterIcon: {fileID: 981645711, guid: 01db6801d09f6e549b4b436b04616fa7, type: 3}
-    delayAfterMessage: 2
+    delayAfterMessage: 1
   - message: OR MAYBE YOU THINK YOU CAN TRICK AN OLD BEETLE LIKE ME?
     characterIcon: {fileID: 981645711, guid: 01db6801d09f6e549b4b436b04616fa7, type: 3}
-    delayAfterMessage: 2
+    delayAfterMessage: 1
   - message: "ANYONE WHO\u2019S IN THE (DRAGON FC) CAN FINISH THIS SIMPLE CHANT"
     characterIcon: {fileID: 981645711, guid: 01db6801d09f6e549b4b436b04616fa7, type: 3}
-    delayAfterMessage: 2
+    delayAfterMessage: 1
   - message: Oh mighty Dragon true and fierce
     characterIcon: {fileID: 981645711, guid: 01db6801d09f6e549b4b436b04616fa7, type: 3}
-    delayAfterMessage: 2
+    delayAfterMessage: 1
   - message: SPIT IT OUT YOUNG ONE, COME ON
     characterIcon: {fileID: 981645711, guid: 01db6801d09f6e549b4b436b04616fa7, type: 3}
-    delayAfterMessage: 2
-  typingSpeed: 0.14
+    delayAfterMessage: 1
+  typingSpeed: 0.25
   sceneTransitionAnimator: {fileID: 1521198845}
   endTransitionTrigger: FadeIn
   transitionDuration: 2
