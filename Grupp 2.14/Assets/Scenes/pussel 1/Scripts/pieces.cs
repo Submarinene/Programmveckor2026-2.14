@@ -92,6 +92,7 @@ public class pieces : MonoBehaviour
         if (bit0 && bit1 && bit2 && bit3 && bit4 && bit5 && bit6 && bit7 && bit8) //när alla ord är färdiga så kör den på metoden puzzleComplete 
         {
             puzzle1Complete();
+            
         }
     }
 

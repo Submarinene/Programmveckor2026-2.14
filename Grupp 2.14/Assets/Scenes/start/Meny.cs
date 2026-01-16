@@ -16,6 +16,7 @@ public class Meny : MonoBehaviour
     }
     public void StartCutscene2()
     {
+        Time.timeScale = 1;
         SceneManager.LoadSceneAsync(2);
     }
     public void pussStartCutscene3()
