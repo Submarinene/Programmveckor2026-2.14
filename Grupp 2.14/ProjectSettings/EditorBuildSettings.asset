@@ -42,6 +42,9 @@ EditorBuildSettings:
     path: Assets/Scenes/c3.unity
     guid: 22665a2ed02547d409159310f1ee9dff
   - enabled: 1
+    path: Assets/Scenes/pussel 1/Scenes/Act2 - CrossTheBridge.unity
+    guid: 65f2fcd765ffd4a44b8122ec8a7255e6
+  - enabled: 1
     path: Assets/Scenes/pussel 1/Scenes/Act3 - FindTheDragon.unity
     guid: 1dee5b252614a914ea72293d652c12a3
   m_configObjects: {}
