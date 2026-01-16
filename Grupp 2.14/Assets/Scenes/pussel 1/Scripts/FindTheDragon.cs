@@ -2,49 +2,47 @@ using UnityEngine;
 
 public class FindTheDragon : MonoBehaviour
 {
-    [SerializeField] Transform propA, propB, propC, propD;
+    [SerializeField] Transform[] props;
+    [SerializeField] float maxCooldown;
     float timer;
     bool isFound = false;
 
+    private void Start()
+    {
+        transform.localScale = new Vector3(0.08f, 0.08f, 0.08f);
+    }
     // Update is called once per frame
     void Update()
     {
         timer += Time.deltaTime;
         if (!isFound)
         {
-            if (timer > 2)
+            if (timer > maxCooldown)
             {
-                TeleportPoints(Random.Range(1, 5));
-                Debug.Log("Dragon teleported!");
+                TeleportPoints(Random.Range(0, props.Length));
                 timer = 0;
             }
         } 
     }
     public void OnMouseDown()
     {
-        Debug.Log("The Dragon has been found!");
-        transform.localScale += new Vector3(2, 2, 2);
+        //Debug.Log("The Dragon has been found!");
+        transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
+        transform.position = new Vector3(0.47f, 0.54f, -5.46f);
         isFound = true;
     }
 
-    void TeleportPoints(int teleportProp)
+    void TeleportPoints(int propIndex)
     {
-        if (teleportProp == 1)
-        {
-            transform.position = new Vector3(propA.transform.position.x, propA.transform.position.y, (propA.transform.position.z + 1));
-        }
-        else if (teleportProp == 2)
-        {
-            transform.position = new Vector3(propB.transform.position.x, propB.transform.position.y, (propB.transform.position.z + 1));
-        }
-        else if (teleportProp == 3)
-        {
-            transform.position = new Vector3(propC.transform.position.x, propC.transform.position.y, (propC.transform.position.z + 1));
-        }
-        else if (teleportProp == 4)
-        {
-            transform.position = new Vector3(propD.transform.position.x, propD.transform.position.y, (propD.transform.position.z + 1));
-        }
+        transform.position = props[propIndex].transform.position;
     }
-    
+
+    public bool IsDragonFound()
+    {
+        if (isFound)
+        {
+            return true;
+        }
+        return false;
+    }
 }

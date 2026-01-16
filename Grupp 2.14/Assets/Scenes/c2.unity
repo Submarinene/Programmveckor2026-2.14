@@ -3096,7 +3096,6 @@ MonoBehaviour:
   fadeStateName: Fade
   chatBubbleObject: {fileID: 1871351110}
   messageText: {fileID: 1324634451}
-  characterIcon: {fileID: 30753369}
   conversation:
   - message: AHA!
     characterIcon: {fileID: 981645711, guid: 01db6801d09f6e549b4b436b04616fa7, type: 3}

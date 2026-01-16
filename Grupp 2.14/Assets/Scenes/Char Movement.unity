@@ -543,7 +543,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterMovement
   walkSpeed: 5
-  jumpVelocity: 5
+  animator: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  Villager1: {fileID: 0}
+  Villager2: {fileID: 0}
+  Villager1TextBox: {fileID: 0}
+  Villager2TextBox: {fileID: 0}
+  sceneTransitionAnimator: {fileID: 0}
+  endTransitionTrigger: FadeIn
+  transitionDuration: 1
 --- !u!212 &2069396559
 SpriteRenderer:
   m_ObjectHideFlags: 0
