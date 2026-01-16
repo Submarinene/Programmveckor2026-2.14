@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class Act1PuzzleManager : MonoBehaviour
 {
     [SerializeField] CollectPieces collectScript;
-    [SerializeField] LinearTime timerScript;
+    [SerializeField] GameObject timerScript;
     [SerializeField] GameObject swipeControl;
     [SerializeField] GameObject assemblePuzzle;
     [SerializeField] int loseSceneIndex;
@@ -15,6 +15,7 @@ public class Act1PuzzleManager : MonoBehaviour
     {
         assemblePuzzle.SetActive(false);
         swipeControl.SetActive(true);
+        timerScript.SetActive(true);
         hasCollectedAllPieces = collectScript.GetComponent<CollectPieces>().Win();
         isTimerUp = timerScript.GetComponent<LinearTime>().Lose();
 
@@ -34,6 +35,7 @@ public class Act1PuzzleManager : MonoBehaviour
         {
             assemblePuzzle.SetActive(true);
             swipeControl.SetActive(false);
+            timerScript.SetActive(false);
         }
     }
 

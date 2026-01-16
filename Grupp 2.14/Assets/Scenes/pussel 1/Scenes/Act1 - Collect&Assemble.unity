@@ -7206,7 +7206,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: find all the pieces and put the paper back together to prove your innocence
+  m_text: find all 9 pieces and put the paper back together to prove your innocence
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e143e603bdd43d94da75adfdf8f4b8ed, type: 2}
   m_sharedMaterial: {fileID: 2231247841667978255, guid: e143e603bdd43d94da75adfdf8f4b8ed, type: 2}
@@ -8905,7 +8905,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PuzzleManager
   collectScript: {fileID: 1878448573}
-  timerScript: {fileID: 1574982767}
+  timerScript: {fileID: 1574982765}
   swipeControl: {fileID: 10077223}
   assemblePuzzle: {fileID: 1279543509}
   loseSceneIndex: 6
