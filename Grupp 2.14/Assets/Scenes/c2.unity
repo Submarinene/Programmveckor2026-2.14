@@ -1944,8 +1944,8 @@ RectTransform:
   m_Children:
   - {fileID: 1754356463}
   - {fileID: 1871351111}
-  - {fileID: 2137009964}
   - {fileID: 1521198848}
+  - {fileID: 2137009964}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3096,7 +3096,6 @@ MonoBehaviour:
   fadeStateName: Fade
   chatBubbleObject: {fileID: 1871351110}
   messageText: {fileID: 1324634451}
-  characterIcon: {fileID: 30753369}
   conversation:
   - message: AHA!
     characterIcon: {fileID: 981645711, guid: 01db6801d09f6e549b4b436b04616fa7, type: 3}
