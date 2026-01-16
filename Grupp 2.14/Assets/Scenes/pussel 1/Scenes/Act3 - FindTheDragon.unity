@@ -3084,7 +3084,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1168610145}
         m_TargetAssemblyTypeName: Meny, Assembly-CSharp
-        m_MethodName: cutscene2
+        m_MethodName: startscen
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5060,7 +5060,7 @@ MonoBehaviour:
   - {fileID: 298306406}
   - {fileID: 1655602702}
   - {fileID: 1787620747}
-  maxCooldown: 0.5
+  maxCooldown: 0.7
 --- !u!1 &1904168578
 GameObject:
   m_ObjectHideFlags: 0
