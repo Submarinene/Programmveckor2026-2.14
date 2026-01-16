@@ -409,7 +409,7 @@ Transform:
   m_GameObject: {fileID: 106562202}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -967.8, y: -537.6, z: -1.7}
+  m_LocalPosition: {x: -1287.08, y: -716.56995, z: -1.7}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1815,7 +1815,7 @@ Transform:
   m_GameObject: {fileID: 1063337904}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -954.69, y: -537.26, z: 1.55}
+  m_LocalPosition: {x: -1273.97, y: -716.23, z: 1.55}
   m_LocalScale: {x: 1.12, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2443,7 +2443,7 @@ Transform:
   m_GameObject: {fileID: 1326828783}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -948.85, y: -538.39, z: 1}
+  m_LocalPosition: {x: -1268.1299, y: -717.36, z: 1}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -2583,7 +2583,7 @@ Transform:
   m_GameObject: {fileID: 1400544022}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -967.9, y: -540.7, z: -2.54}
+  m_LocalPosition: {x: -1287.1799, y: -719.67, z: -2.54}
   m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -2840,7 +2840,7 @@ Transform:
   m_GameObject: {fileID: 1596138141}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -949.53, y: -541.69, z: -1.8}
+  m_LocalPosition: {x: -1268.81, y: -720.66, z: -1.8}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -3374,7 +3374,7 @@ Transform:
   m_GameObject: {fileID: 1888849701}
   serializedVersion: 2
   m_LocalRotation: {x: 0.48542005, y: -0, z: -0, w: 0.87428105}
-  m_LocalPosition: {x: -957.18, y: -541.65, z: 2.82}
+  m_LocalPosition: {x: -1276.46, y: -720.62, z: 2.82}
   m_LocalScale: {x: 0.35, y: 0.35, z: 0.35}
   m_ConstrainProportionsScale: 1
   m_Children: []

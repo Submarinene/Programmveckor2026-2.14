@@ -1239,21 +1239,65 @@ MonoBehaviour:
   chatBubbleObject: {fileID: 1317358742}
   messageText: {fileID: 138694077}
   conversation:
-  - message: SO YOU AREN'T AS DUMB AS YOU LOOK.
-    characterIcon: {fileID: 21300000, guid: 9372bfbab2c227748b093c91b044911a, type: 3}
+  - message: '*ROARS*'
+    characterIcon: {fileID: 844923470, guid: 5f581b46f83632641a604d693e91acda, type: 3}
     delayAfterMessage: 2
-  - message: VERY WELL.
-    characterIcon: {fileID: 21300000, guid: 9372bfbab2c227748b093c91b044911a, type: 3}
+  - message: 'Who the blazers are you? '
+    characterIcon: {fileID: 844923470, guid: 5f581b46f83632641a604d693e91acda, type: 3}
     delayAfterMessage: 2
-  - message: YOU ANSWERED MY RIDDLE CORRECTLY. PROVING TO ME YOU'RE A TRUE FAN LIKE
-      ME.
-    characterIcon: {fileID: 21300000, guid: 9372bfbab2c227748b093c91b044911a, type: 3}
+  - message: You came to steal my treasure, haven't you?
+    characterIcon: {fileID: 844923470, guid: 5f581b46f83632641a604d693e91acda, type: 3}
     delayAfterMessage: 2
-  - message: AS I PROMISED I SHALL LET YOU PASS.
-    characterIcon: {fileID: 21300000, guid: 9372bfbab2c227748b093c91b044911a, type: 3}
+  - message: '*shakes head*'
+    characterIcon: {fileID: -1107236686, guid: 905360ce0a2d9ac4ab55e1296e7312c8, type: 3}
     delayAfterMessage: 2
-  - message: I'M SO PROUD OF MY FANDOM.
-    characterIcon: {fileID: 21300000, guid: 9372bfbab2c227748b093c91b044911a, type: 3}
+  - message: No?
+    characterIcon: {fileID: 844923470, guid: 5f581b46f83632641a604d693e91acda, type: 3}
+    delayAfterMessage: 2
+  - message: Then why are you here?!
+    characterIcon: {fileID: 844923470, guid: 5f581b46f83632641a604d693e91acda, type: 3}
+    delayAfterMessage: 2
+  - message: Stupid insects... they think they can disturb my beauty sleep?!
+    characterIcon: {fileID: 844923470, guid: 5f581b46f83632641a604d693e91acda, type: 3}
+    delayAfterMessage: 2
+  - message: Ahh! Help!
+    characterIcon: {fileID: 1119921889, guid: 0c34efd6860935b42863e9263439fa57, type: 3}
+    delayAfterMessage: 2
+  - message: Is someone there?
+    characterIcon: {fileID: 1119921889, guid: 0c34efd6860935b42863e9263439fa57, type: 3}
+    delayAfterMessage: 2
+  - message: Help me!
+    characterIcon: {fileID: 1119921889, guid: 0c34efd6860935b42863e9263439fa57, type: 3}
+    delayAfterMessage: 2
+  - message: Uhh-
+    characterIcon: {fileID: 844923470, guid: 5f581b46f83632641a604d693e91acda, type: 3}
+    delayAfterMessage: 2
+  - message: Help-
+    characterIcon: {fileID: 1119921889, guid: 0c34efd6860935b42863e9263439fa57, type: 3}
+    delayAfterMessage: 2
+  - message: I'm over here!
+    characterIcon: {fileID: 1119921889, guid: 0c34efd6860935b42863e9263439fa57, type: 3}
+    delayAfterMessage: 2
+  - message: Oh would you be quiet!
+    characterIcon: {fileID: 844923470, guid: 5f581b46f83632641a604d693e91acda, type: 3}
+    delayAfterMessage: 2
+  - message: I'm entertaining guests.
+    characterIcon: {fileID: 844923470, guid: 5f581b46f83632641a604d693e91acda, type: 3}
+    delayAfterMessage: 2
+  - message: Unless...
+    characterIcon: {fileID: 844923470, guid: 5f581b46f83632641a604d693e91acda, type: 3}
+    delayAfterMessage: 2
+  - message: It's her you're here to save?
+    characterIcon: {fileID: 844923470, guid: 5f581b46f83632641a604d693e91acda, type: 3}
+    delayAfterMessage: 2
+  - message: Oh my knight in shining armor!
+    characterIcon: {fileID: 1119921889, guid: 0c34efd6860935b42863e9263439fa57, type: 3}
+    delayAfterMessage: 2
+  - message: You're even cuter than your voice.
+    characterIcon: {fileID: 1119921889, guid: 0c34efd6860935b42863e9263439fa57, type: 3}
+    delayAfterMessage: 2
+  - message: Ahem-
+    characterIcon: {fileID: 844923470, guid: 5f581b46f83632641a604d693e91acda, type: 3}
     delayAfterMessage: 2
   typingSpeed: 0.05
   advanceKey: 32
@@ -3173,14 +3217,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 844923470, guid: 5f581b46f83632641a604d693e91acda, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
