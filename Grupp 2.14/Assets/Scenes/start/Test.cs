@@ -7,9 +7,7 @@ public class Test : MonoBehaviour
     [SerializeField] private Animator sceneTransitionAnimator;
     [SerializeField] private string endTransitionTrigger = "FadeIn";
     [SerializeField] private float transitionDuration = 1.0f;
-    [SerializeField] private GameObject startButton;
-    [SerializeField] private GameObject quitButton;
-
+    [SerializeField] private GameObject Title;
     public void LoadCutscene()
     {
         StartCoroutine(TransitionToCutscene());
@@ -17,21 +15,20 @@ public class Test : MonoBehaviour
 
     void Start()
     {
-        // Hide buttons on startup
-        if (startButton != null)
-            startButton.SetActive(false);
-        if (quitButton != null)
-            quitButton.SetActive(false);
+        if(Title != null)
+        {
+            Title.SetActive(false);
             StartCoroutine(StartUpTransition());
+        }
     }
 
     private IEnumerator TransitionToCutscene()
     {
-        // Hide buttons before starting fade
-        if (startButton != null)
-            startButton.SetActive(false);
-        if (quitButton != null)
-            quitButton.SetActive(false);
+        if(Title != null)
+        {
+            Title.SetActive(false);
+        }
+            
 
         // Trigger the end transition (fade to black)
         if (sceneTransitionAnimator != null)
@@ -48,10 +45,10 @@ public class Test : MonoBehaviour
         if(sceneTransitionAnimator != null)
         {
             yield return new WaitForSeconds(transitionDuration);
-            if (startButton != null)
-                startButton.SetActive(true);
-            if (quitButton != null)
-                quitButton.SetActive(true);
+            if(Title != null)
+            {
+                Title.SetActive(true);
+            }
         }
     }
 }
