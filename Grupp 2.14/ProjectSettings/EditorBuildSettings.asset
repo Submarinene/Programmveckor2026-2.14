@@ -47,5 +47,23 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/pussel 1/Scenes/Act3 - FindTheDragon.unity
     guid: 1dee5b252614a914ea72293d652c12a3
+  - enabled: 1
+    path: Assets/Scenes/pussel 1/Scenes/Final Act.unity
+    guid: 7e356dc6b50081a41a06f8ac96b273aa
+  - enabled: 1
+    path: Assets/Scenes/pussel 1/Scenes/Final Act pt.2.unity
+    guid: affdd3fe80c56674b8354b3160a0faa7
+  - enabled: 1
+    path: Assets/Scenes/pussel 1/Scenes/Final Act pt.3.unity
+    guid: 9fed7894b17a18b47a9841e41c6012a7
+  - enabled: 1
+    path: Assets/Scenes/pussel 1/Scenes/Final Act pt.4.unity
+    guid: c0face212e5d3e7468398e62590f318d
+  - enabled: 1
+    path: Assets/Scenes/pussel 1/Scenes/Final Act pt.5.unity
+    guid: 483a541670c0acb408f3147164266a8a
+  - enabled: 1
+    path: Assets/Scenes/pussel 1/Scenes/Final Act pt.6.unity
+    guid: 4d88d967ccaf7544983a39d51e735f84
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

@@ -3084,7 +3084,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1168610145}
         m_TargetAssemblyTypeName: Meny, Assembly-CSharp
-        m_MethodName: startscen
+        m_MethodName: finalcutscene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

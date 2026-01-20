@@ -23,6 +23,7 @@ TagManager:
   - Villager1
   - Villager2
   - RightCollider
+  - Wardrobe
   layers:
   - Default
   - TransparentFX
