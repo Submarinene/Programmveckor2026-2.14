@@ -74,5 +74,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/pussel 1/Scenes/Castle Halls.unity
     guid: c983ad22ce760f747aeae00269363d16
+  - enabled: 1
+    path: Assets/Scenes/dO/dO.unity
+    guid: 45c4cdc512f79554ab9164a0f33aa38b
+  - enabled: 1
+    path: Assets/Scenes/dO/I'm also a Fan/o1.unity
+    guid: d6184efff24764f418642eae6350fa0b
+  - enabled: 1
+    path: Assets/Scenes/dO/I'm also a Fan/o2.unity
+    guid: 99fb326e421080a48b0a1c50bc1e7d2a
+  - enabled: 1
+    path: Assets/Scenes/dO/I'm also a Fan/o3.unity
+    guid: e9bcaf8b99fb91447b5ce5d3984f0c6c
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
