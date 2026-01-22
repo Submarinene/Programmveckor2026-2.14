@@ -59,6 +59,10 @@ public class Meny : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(14);
     }
+    public void Act1Success()
+    {
+        SceneManager.LoadSceneAsync(21);
+    }
 
     public void doExitGame()
     {

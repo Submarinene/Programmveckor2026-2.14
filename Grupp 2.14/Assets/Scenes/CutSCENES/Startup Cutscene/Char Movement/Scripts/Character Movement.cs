@@ -82,7 +82,7 @@ public class CharacterMovement : MonoBehaviour
             yield return new WaitForSeconds(transitionDuration);
         }
 
-        SceneManager.LoadScene("Cutscene 1");
+        SceneManager.LoadScene("Guards");
     }
 
     private void OnTriggerExit2D(Collider2D collision)

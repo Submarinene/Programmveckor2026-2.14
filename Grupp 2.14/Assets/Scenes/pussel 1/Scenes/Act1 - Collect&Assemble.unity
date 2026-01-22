@@ -2664,7 +2664,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 427560410}
         m_TargetAssemblyTypeName: Meny, Assembly-CSharp
-        m_MethodName: cutscene2
+        m_MethodName: Act1Success
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
