@@ -48,22 +48,31 @@ EditorBuildSettings:
     path: Assets/Scenes/pussel 1/Scenes/Act3 - FindTheDragon.unity
     guid: 1dee5b252614a914ea72293d652c12a3
   - enabled: 1
-    path: Assets/Scenes/pussel 1/Scenes/Final Act.unity
+    path: Assets/Scenes/pussel 1/Scenes/Final Act/Final Act.unity
     guid: 7e356dc6b50081a41a06f8ac96b273aa
   - enabled: 1
-    path: Assets/Scenes/pussel 1/Scenes/Final Act pt.2.unity
+    path: Assets/Scenes/pussel 1/Scenes/Final Act/Final Act pt.2.unity
     guid: affdd3fe80c56674b8354b3160a0faa7
   - enabled: 1
-    path: Assets/Scenes/pussel 1/Scenes/Final Act pt.3.unity
+    path: Assets/Scenes/pussel 1/Scenes/Final Act/Final Act pt.3.unity
     guid: 9fed7894b17a18b47a9841e41c6012a7
   - enabled: 1
-    path: Assets/Scenes/pussel 1/Scenes/Final Act pt.4.unity
+    path: Assets/Scenes/pussel 1/Scenes/Final Act/Final Act pt.4.unity
     guid: c0face212e5d3e7468398e62590f318d
   - enabled: 1
-    path: Assets/Scenes/pussel 1/Scenes/Final Act pt.5.unity
+    path: Assets/Scenes/pussel 1/Scenes/Final Act/Final Act pt.5.unity
     guid: 483a541670c0acb408f3147164266a8a
   - enabled: 1
-    path: Assets/Scenes/pussel 1/Scenes/Final Act pt.6.unity
+    path: Assets/Scenes/pussel 1/Scenes/Final Act/Final Act pt.6.unity
     guid: 4d88d967ccaf7544983a39d51e735f84
+  - enabled: 1
+    path: Assets/Scenes/pussel 1/Scenes/Guards.unity
+    guid: be26b70f86498774d94e861def298ab9
+  - enabled: 1
+    path: Assets/Scenes/pussel 1/Scenes/Act1 Success.unity
+    guid: 00f10b2eca8bd224d96dad7d8084355f
+  - enabled: 1
+    path: Assets/Scenes/pussel 1/Scenes/Castle Halls.unity
+    guid: c983ad22ce760f747aeae00269363d16
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
