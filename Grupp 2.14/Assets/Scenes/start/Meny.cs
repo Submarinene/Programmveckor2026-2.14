@@ -59,6 +59,21 @@ public class Meny : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(14);
     }
+    public void O1()
+    {
+        SceneManager.LoadSceneAsync(14);
+    }
+
+    public void O2()
+    {
+        SceneManager.LoadSceneAsync(14);
+    }
+
+    public void O3()
+    {
+        SceneManager.LoadSceneAsync(14);
+    }
+
 
     public void doExitGame()
     {

@@ -260,16 +260,17 @@ public class chatbubbles2 : MonoBehaviour
 
     private IEnumerator EndConversationSequence()
     {
-        if (sceneTransitionAnimator != null)
-        {
-            sceneTransitionAnimator.SetTrigger(endTransitionTrigger);
-            yield return new WaitForSeconds(transitionDuration);
-        }
-
+      
         if (!string.IsNullOrEmpty(nextSceneName))
         {
             responses.SetActive(true);
             // SceneManager.LoadScene(nextSceneName);// byter scen när conversation är färdig
+        }
+
+        if (sceneTransitionAnimator != null)
+        {
+            sceneTransitionAnimator.SetTrigger(endTransitionTrigger);
+            yield return new WaitForSeconds(transitionDuration);
         }
     }
 
