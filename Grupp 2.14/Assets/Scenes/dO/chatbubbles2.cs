@@ -99,6 +99,7 @@ public class chatbubbles2 : MonoBehaviour
             // Check if the specific state is playing and has finished
             if (stateInfo.IsName(fadeStateName) && stateInfo.normalizedTime >= 1.0f)
             {
+                Debug.Log("försöker starta convo");
                 StartConversation();
             }
         }
