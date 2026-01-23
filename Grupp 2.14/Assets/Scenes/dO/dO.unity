@@ -3164,6 +3164,17 @@ MonoBehaviour:
   - message: "NOT WITH THAT TWO CELLED BRAIN YOU AREN\u2019T"
     characterIcon: {fileID: 21300000, guid: 95c08b058fb3cc145b81b1e0d94854bc, type: 3}
     delayAfterMessage: 5
+  - message: 'Narrator-
+
+      It seems this old beetle is a fanboy of The Mighty
+      Dragon'
+    characterIcon: {fileID: 21300000, guid: 95c08b058fb3cc145b81b1e0d94854bc, type: 3}
+    delayAfterMessage: 1
+  - message: 'Narrator-
+
+      This might get even more tricky'
+    characterIcon: {fileID: 21300000, guid: 95c08b058fb3cc145b81b1e0d94854bc, type: 3}
+    delayAfterMessage: 1
   - message: WHAT THE DRAGON LACKS IN STRENGTH IS SOMETHING I HAVE MADE UP FOR
     characterIcon: {fileID: 21300000, guid: 95c08b058fb3cc145b81b1e0d94854bc, type: 3}
     delayAfterMessage: 1
