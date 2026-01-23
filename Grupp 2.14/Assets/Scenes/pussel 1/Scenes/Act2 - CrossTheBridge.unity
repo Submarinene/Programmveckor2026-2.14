@@ -1426,7 +1426,7 @@ MonoBehaviour:
   sceneTransitionAnimator: {fileID: 256419021}
   endTransitionTrigger: FadeIn
   transitionDuration: 1
-  dragonSceneIndex: 13
+  scene: 31
 --- !u!1 &642033786
 GameObject:
   m_ObjectHideFlags: 0
