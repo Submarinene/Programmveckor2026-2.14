@@ -101,5 +101,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/dO/WalkToCave.unity
     guid: 6be4f8efa5f432d41bab90ab595b43fd
+  - enabled: 1
+    path: Assets/Scenes/dO/intro.unity
+    guid: ce7ef4346d2f38f409c782f0d9297f43
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
