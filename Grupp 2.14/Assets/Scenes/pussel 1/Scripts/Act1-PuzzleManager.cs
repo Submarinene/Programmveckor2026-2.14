@@ -35,7 +35,6 @@ public class Act1PuzzleManager : MonoBehaviour
         {
             assemblePuzzle.SetActive(true);
             swipeControl.SetActive(false);
-            timerScript.SetActive(false);
         }
     }
 
