@@ -2870,7 +2870,7 @@ MonoBehaviour:
   skipConfirmationMessage: Skip!
   skipConfirmationTimeout: 3
   sceneTransitionAnimator: {fileID: 1070400537}
-  endTransitionTrigger: FadeIn
+  endTransitionTrigger: Fade
   transitionDuration: 2
   nextSceneName: dO1
 --- !u!4 &1347878088
