@@ -36,6 +36,7 @@ public class pieces : MonoBehaviour
     public GameObject b8;
 
     [SerializeField] GameObject completePuzzle1; //ställe att lägga parenten som heter complete puzzle
+    [SerializeField] GameObject timerScript;
 
 
     void Start()
@@ -99,6 +100,7 @@ public class pieces : MonoBehaviour
     void puzzle1Complete() //metod som ska köras när puzzlet är färdigt
     {
         completePuzzle1.SetActive(true); // sätter på parenten/objektet som är insat på completePuzzle
+        timerScript.SetActive(false);
     }
 
     bool CheckWordRightSpot(GameObject bit) //kollar gameobjects 
