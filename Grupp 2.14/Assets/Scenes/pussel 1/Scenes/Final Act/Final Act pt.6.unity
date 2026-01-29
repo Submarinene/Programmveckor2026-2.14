@@ -845,7 +845,7 @@ MonoBehaviour:
   sceneTransitionAnimator: {fileID: 793404633}
   endTransitionTrigger: FadeIn
   transitionDuration: 2
-  nextSceneName: start
+  nextSceneName: HappyEnd
 --- !u!4 &372798158
 Transform:
   m_ObjectHideFlags: 0
@@ -2684,11 +2684,11 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1787718543}
   - {fileID: 188781522}
   - {fileID: 1337248787}
   - {fileID: 793404636}
   - {fileID: 1363474358}
+  - {fileID: 1787718543}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}

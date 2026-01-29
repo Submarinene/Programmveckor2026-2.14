@@ -1220,8 +1220,8 @@ RectTransform:
   - {fileID: 1940923233}
   - {fileID: 1612647179}
   - {fileID: 864306844}
-  - {fileID: 1979860850}
   - {fileID: 470073465}
+  - {fileID: 1979860850}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1931,7 +1931,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1061.3, y: -466}
+  m_AnchoredPosition: {x: 778, y: -466}
   m_SizeDelta: {x: 64.7598, y: 27.8991}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1979860851

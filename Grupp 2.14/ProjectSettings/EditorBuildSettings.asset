@@ -104,5 +104,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/dO/intro.unity
     guid: ce7ef4346d2f38f409c782f0d9297f43
+  - enabled: 1
+    path: Assets/Scenes/pussel 1/Scenes/Final Act/HappyEnd.unity
+    guid: f3ff19d52d6e1384794eb2f216fe0b86
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
