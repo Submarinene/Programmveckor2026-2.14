@@ -3638,7 +3638,7 @@ MonoBehaviour:
   skipConfirmationObject: {fileID: 611265933}
   skipButton: {fileID: 1284016737}
   skipConfirmationText: {fileID: 257860897}
-  skipConfirmationMessage: Are you sure you want to skip? Click Skip again to confirm.
+  skipConfirmationMessage: Skip!
   skipConfirmationTimeout: 3
   sceneTransitionAnimator: {fileID: 1521198845}
   endTransitionTrigger: FadeIn
